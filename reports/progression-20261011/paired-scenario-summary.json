@@ -1,0 +1,181 @@
+[
+  {
+    "case": "Flint bootstrap",
+    "pairedCompletions": 32,
+    "medianAdditionalHours": -0.9,
+    "medianRatio": 0.5,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -1.41
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -1.07
+      },
+      {
+        "dataset": "old1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -0.93
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -0.04
+      }
+    ]
+  },
+  {
+    "case": "Steam starter factory",
+    "pairedCompletions": 32,
+    "medianAdditionalHours": 0.83,
+    "medianRatio": 1.5,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 7.81
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.95
+      },
+      {
+        "dataset": "old1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -1.09
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -0.43
+      }
+    ]
+  },
+  {
+    "case": "Bricked blast furnace minerals",
+    "pairedCompletions": 19,
+    "medianAdditionalHours": 1.74,
+    "medianRatio": 1.46,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.63
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.05
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 3,
+        "medianAdditionalHours": 4.29
+      }
+    ]
+  },
+  {
+    "case": "Early LV working stock",
+    "pairedCompletions": 26,
+    "medianAdditionalHours": 7.03,
+    "medianRatio": 3.0,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 14.18
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 7.39
+      },
+      {
+        "dataset": "old1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 4.67
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 2,
+        "medianAdditionalHours": 6.78
+      }
+    ]
+  },
+  {
+    "case": "LV blast furnace mica route",
+    "pairedCompletions": 0,
+    "medianAdditionalHours": null,
+    "medianRatio": null,
+    "seedResults": []
+  },
+  {
+    "case": "LV to MV common-metal reserve",
+    "pairedCompletions": 32,
+    "medianAdditionalHours": 1.68,
+    "medianRatio": 1.57,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 7.77
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.1
+      },
+      {
+        "dataset": "old1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.39
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 1.26
+      }
+    ]
+  },
+  {
+    "case": "MV to HV factory expansion",
+    "pairedCompletions": 0,
+    "medianAdditionalHours": null,
+    "medianRatio": null,
+    "seedResults": []
+  },
+  {
+    "case": "Steam iron stress test",
+    "pairedCompletions": 24,
+    "medianAdditionalHours": 1.22,
+    "medianRatio": 1.16,
+    "seedResults": [
+      {
+        "dataset": "new1",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": 8.15
+      },
+      {
+        "dataset": "new2",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -0.06
+      },
+      {
+        "dataset": "old3",
+        "pairedCompletions": 8,
+        "medianAdditionalHours": -0.8
+      }
+    ]
+  },
+  {
+    "case": "EV drill common-metal subtotal",
+    "pairedCompletions": 0,
+    "medianAdditionalHours": null,
+    "medianRatio": null,
+    "seedResults": []
+  }
+]

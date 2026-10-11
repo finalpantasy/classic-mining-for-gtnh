@@ -1,0 +1,1354 @@
+[
+  {
+    "material": "Lithium",
+    "voltage": 0,
+    "goal": "Lithium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Lithium",
+    "voltage": 32,
+    "goal": "Lithium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Beryllium",
+    "voltage": 0,
+    "goal": "Beryllium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Beryllium",
+    "voltage": 32,
+    "goal": "Beryllium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Carbon",
+    "voltage": 0,
+    "goal": "Carbon",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Carbon",
+    "voltage": 32,
+    "goal": "Carbon",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Magnesium",
+    "voltage": 0,
+    "goal": "Magnesium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Magnesium",
+    "voltage": 32,
+    "goal": "Magnesium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Manganese",
+    "voltage": 0,
+    "goal": "Manganese",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Manganese",
+    "voltage": 32,
+    "goal": "Manganese",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Iron",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Iron",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Nickel",
+    "voltage": 0,
+    "goal": "Nickel",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Nickel",
+    "voltage": 32,
+    "goal": "Nickel",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Copper",
+    "voltage": 0,
+    "goal": "Copper",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Copper",
+    "voltage": 32,
+    "goal": "Copper",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Zinc",
+    "voltage": 0,
+    "goal": "Zinc",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Zinc",
+    "voltage": 32,
+    "goal": "Zinc",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Gallium",
+    "voltage": 0,
+    "goal": "Gallium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Gallium",
+    "voltage": 32,
+    "goal": "Gallium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Arsenic",
+    "voltage": 0,
+    "goal": "Arsenic",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Arsenic",
+    "voltage": 32,
+    "goal": "Arsenic",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Rubidium",
+    "voltage": 0,
+    "goal": "Rubidium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Rubidium",
+    "voltage": 32,
+    "goal": "Rubidium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Strontium",
+    "voltage": 0,
+    "goal": "Strontium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Strontium",
+    "voltage": 32,
+    "goal": "Strontium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Molybdenum",
+    "voltage": 0,
+    "goal": "Molybdenum",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Molybdenum",
+    "voltage": 32,
+    "goal": "Molybdenum",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Silver",
+    "voltage": 0,
+    "goal": "Silver",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Silver",
+    "voltage": 32,
+    "goal": "Silver",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Indium",
+    "voltage": 0,
+    "goal": "Indium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Indium",
+    "voltage": 32,
+    "goal": "Indium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tin",
+    "voltage": 0,
+    "goal": "Tin",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tin",
+    "voltage": 32,
+    "goal": "Tin",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Antimony",
+    "voltage": 0,
+    "goal": "Antimony",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Antimony",
+    "voltage": 32,
+    "goal": "Antimony",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tellurium",
+    "voltage": 0,
+    "goal": "Tellurium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tellurium",
+    "voltage": 32,
+    "goal": "Tellurium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Caesium",
+    "voltage": 0,
+    "goal": "Caesium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Caesium",
+    "voltage": 32,
+    "goal": "Caesium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Barium",
+    "voltage": 0,
+    "goal": "Barium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Barium",
+    "voltage": 32,
+    "goal": "Barium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Gold",
+    "voltage": 0,
+    "goal": "Gold",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Gold",
+    "voltage": 32,
+    "goal": "Gold",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Lead",
+    "voltage": 0,
+    "goal": "Lead",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Lead",
+    "voltage": 32,
+    "goal": "Lead",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Bismuth",
+    "voltage": 0,
+    "goal": "Bismuth",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Bismuth",
+    "voltage": 32,
+    "goal": "Bismuth",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Thorium",
+    "voltage": 0,
+    "goal": "Thorium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Thorium",
+    "voltage": 32,
+    "goal": "Thorium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Uranium235",
+    "voltage": 0,
+    "goal": "Uranium235",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Uranium235",
+    "voltage": 32,
+    "goal": "Uranium235",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Uranium",
+    "voltage": 0,
+    "goal": "Uranium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Uranium",
+    "voltage": 32,
+    "goal": "Uranium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Plutonium",
+    "voltage": 0,
+    "goal": "Plutonium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Plutonium",
+    "voltage": 32,
+    "goal": "Plutonium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Plutonium241",
+    "voltage": 0,
+    "goal": "Plutonium241",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Plutonium241",
+    "voltage": 32,
+    "goal": "Plutonium241",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Americium",
+    "voltage": 0,
+    "goal": "Americium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Americium",
+    "voltage": 32,
+    "goal": "Americium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Electrum",
+    "voltage": 0,
+    "goal": "Electrum",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Electrum",
+    "voltage": 32,
+    "goal": "Electrum",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "PigIron",
+    "voltage": 0,
+    "goal": "PigIron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "PigIron",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "PigIron",
+    "voltage": 32,
+    "goal": "PigIron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "InfusedGold",
+    "voltage": 0,
+    "goal": "InfusedGold",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "InfusedGold",
+    "voltage": 32,
+    "goal": "InfusedGold",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "DarkIron",
+    "voltage": 0,
+    "goal": "DarkIron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "DarkIron",
+    "voltage": 32,
+    "goal": "DarkIron",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "CallistoIce",
+    "voltage": 0,
+    "goal": "CallistoIce",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "CallistoIce",
+    "voltage": 32,
+    "goal": "CallistoIce",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Ledox",
+    "voltage": 0,
+    "goal": "Ledox",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Ledox",
+    "voltage": 32,
+    "goal": "Ledox",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Rubracium",
+    "voltage": 0,
+    "goal": "Rubracium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Rubracium",
+    "voltage": 32,
+    "goal": "Rubracium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Force",
+    "voltage": 0,
+    "goal": "Force",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Force",
+    "voltage": 32,
+    "goal": "Force",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Vinteum",
+    "voltage": 0,
+    "goal": "Vinteum",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Vinteum",
+    "voltage": 32,
+    "goal": "Vinteum",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "RoastedIron",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "RoastedIron",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "RoastedNickel",
+    "voltage": 0,
+    "goal": "Nickel",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "RoastedNickel",
+    "voltage": 32,
+    "goal": "Nickel",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "HeeEndium",
+    "voltage": 0,
+    "goal": "HeeEndium",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "HeeEndium",
+    "voltage": 32,
+    "goal": "HeeEndium",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Cassiterite",
+    "voltage": 0,
+    "goal": "Tin",
+    "yield_": 2.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Cassiterite",
+    "voltage": 32,
+    "goal": "Tin",
+    "yield_": 4.0,
+    "seconds": 60.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Galena",
+    "voltage": 0,
+    "goal": "Lead",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Galena",
+    "voltage": 32,
+    "goal": "Lead",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Pyrite",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Pyrite",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Sphalerite",
+    "voltage": 0,
+    "goal": "Zinc",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Sphalerite",
+    "voltage": 32,
+    "goal": "Zinc",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tetrahedrite",
+    "voltage": 0,
+    "goal": "Copper",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Tetrahedrite",
+    "voltage": 32,
+    "goal": "Copper",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Chalcopyrite",
+    "voltage": 0,
+    "goal": "Copper",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Chalcopyrite",
+    "voltage": 32,
+    "goal": "Copper",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Magnetite",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Magnetite",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Malachite",
+    "voltage": 0,
+    "goal": "Copper",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Malachite",
+    "voltage": 32,
+    "goal": "Copper",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Garnierite",
+    "voltage": 0,
+    "goal": "Nickel",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Garnierite",
+    "voltage": 32,
+    "goal": "Nickel",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Pentlandite",
+    "voltage": 0,
+    "goal": "Nickel",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Pentlandite",
+    "voltage": 32,
+    "goal": "Nickel",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Realgar",
+    "voltage": 0,
+    "goal": "Realgar",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Realgar",
+    "voltage": 32,
+    "goal": "Realgar",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "BandedIron",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "BandedIron",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "BrownLimonite",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "BrownLimonite",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "YellowLimonite",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "YellowLimonite",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "BasalticMineralSand",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "BasalticMineralSand",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "GraniticMineralSand",
+    "voltage": 0,
+    "goal": "Iron",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "GraniticMineralSand",
+    "voltage": 32,
+    "goal": "Iron",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "CassiteriteSand",
+    "voltage": 0,
+    "goal": "Tin",
+    "yield_": 2.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "CassiteriteSand",
+    "voltage": 32,
+    "goal": "Tin",
+    "yield_": 4.0,
+    "seconds": 60.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Molybdenite",
+    "voltage": 0,
+    "goal": "Molybdenum",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Molybdenite",
+    "voltage": 32,
+    "goal": "Molybdenum",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Stibnite",
+    "voltage": 0,
+    "goal": "Antimony",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Stibnite",
+    "voltage": 32,
+    "goal": "Antimony",
+    "yield_": 2.0,
+    "seconds": 40.0,
+    "path": [
+      "macerator",
+      "furnace"
+    ]
+  },
+  {
+    "material": "Flerovium_GT5U",
+    "voltage": 0,
+    "goal": "Flerovium_GT5U",
+    "yield_": 1.0,
+    "seconds": 10.0,
+    "path": [
+      "furnace"
+    ]
+  },
+  {
+    "material": "Flerovium_GT5U",
+    "voltage": 32,
+    "goal": "Flerovium_GT5U",
+    "yield_": 2.0,
+    "seconds": 80.0,
+    "path": [
+      "macerator",
+      "macerator",
+      "furnace"
+    ]
+  }
+]

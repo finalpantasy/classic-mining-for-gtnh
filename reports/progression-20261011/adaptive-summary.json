@@ -1,0 +1,93 @@
+{
+  "policies": [
+    {
+      "policy": "grid-with-trips",
+      "campaigns": 20,
+      "throughLV": 12,
+      "throughMV": 8,
+      "medianSampleRecoveryPct": 1.816,
+      "medianExcavatedChunkRecoveryPct": 5.813,
+      "medianOreTrips": 3.0
+    },
+    {
+      "policy": "branch-with-trips",
+      "campaigns": 20,
+      "throughLV": 15,
+      "throughMV": 12,
+      "medianSampleRecoveryPct": 2.2,
+      "medianExcavatedChunkRecoveryPct": 2.781,
+      "medianOreTrips": 2.0
+    },
+    {
+      "policy": "local-probes",
+      "campaigns": 20,
+      "throughLV": 15,
+      "throughMV": 15,
+      "medianSampleRecoveryPct": 2.123,
+      "medianExcavatedChunkRecoveryPct": 3.532,
+      "medianOreTrips": 2.0
+    }
+  ],
+  "matchedComparisons": [
+    {
+      "stage": "LV budget",
+      "leftPolicy": "grid-with-trips",
+      "rightPolicy": "branch-with-trips",
+      "pairs": 11,
+      "seeds": 3,
+      "leftMedianHours": 7.435,
+      "rightMedianHours": 19.988,
+      "medianAdditionalHours": 10.649
+    },
+    {
+      "stage": "LV budget",
+      "leftPolicy": "grid-with-trips",
+      "rightPolicy": "local-probes",
+      "pairs": 11,
+      "seeds": 3,
+      "leftMedianHours": 7.435,
+      "rightMedianHours": 14.089,
+      "medianAdditionalHours": 8.259
+    },
+    {
+      "stage": "LV budget",
+      "leftPolicy": "branch-with-trips",
+      "rightPolicy": "local-probes",
+      "pairs": 14,
+      "seeds": 4,
+      "leftMedianHours": 13.851,
+      "rightMedianHours": 13.483,
+      "medianAdditionalHours": -2.809
+    },
+    {
+      "stage": "MV budget",
+      "leftPolicy": "grid-with-trips",
+      "rightPolicy": "branch-with-trips",
+      "pairs": 5,
+      "seeds": 2,
+      "leftMedianHours": 11.104,
+      "rightMedianHours": 41.665,
+      "medianAdditionalHours": 31.981
+    },
+    {
+      "stage": "MV budget",
+      "leftPolicy": "grid-with-trips",
+      "rightPolicy": "local-probes",
+      "pairs": 7,
+      "seeds": 2,
+      "leftMedianHours": 9.684,
+      "rightMedianHours": 30.39,
+      "medianAdditionalHours": 17.996
+    },
+    {
+      "stage": "MV budget",
+      "leftPolicy": "branch-with-trips",
+      "rightPolicy": "local-probes",
+      "pairs": 12,
+      "seeds": 4,
+      "leftMedianHours": 31.683,
+      "rightMedianHours": 22.126,
+      "medianAdditionalHours": -4.685
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+case,mode,policy,attempts,complete,medianCompletedHours,medianCompletedRepairs,medianAllHours,missingMaterials
+Flint bootstrap,stock,grid,40,32,1.78,46.0,2.62,['Tin']
+Flint bootstrap,custom,branch,40,32,1.21,31.0,0.92,"['Copper', 'Iron', 'Tin']"
+Flint bootstrap,stock,branch,40,29,5.99,135,6.9,"['Copper', 'Tin']"
+Steam starter factory,stock,grid,40,32,2.26,31.0,3.11,['Tin']
+Steam starter factory,custom,branch,40,40,2.85,37.0,2.85,[]
+Steam starter factory,stock,branch,40,32,7.66,95.0,9.4,"['Copper', 'Tin']"
+Bricked blast furnace minerals,stock,grid,40,24,4.01,57.0,4.89,"['Calcite', 'Tin']"
+Bricked blast furnace minerals,custom,branch,40,25,6.64,84,9.67,"['Calcite', 'Copper', 'Gypsum']"
+Bricked blast furnace minerals,stock,branch,40,3,21.52,267,12.48,"['Calcite', 'Copper', 'Gypsum', 'Tin']"
+Early LV working stock,stock,grid,40,32,4.26,62.0,4.79,['Tin']
+Early LV working stock,custom,branch,40,26,11.3,147.0,12.51,"['Copper', 'Tin']"
+Early LV working stock,stock,branch,40,29,10.37,129,12.54,"['Copper', 'Tin']"
+LV blast furnace mica route,stock,grid,40,8,4.64,47.5,5.33,"['Mica', 'Nickel']"
+LV blast furnace mica route,custom,branch,40,3,16.99,164,12.24,['Nickel']
+LV blast furnace mica route,stock,branch,40,0,,,12.07,"['Copper', 'Mica', 'Nickel']"
+LV to MV common-metal reserve,stock,grid,40,32,3.5,39.0,4.32,['Tin']
+LV to MV common-metal reserve,custom,branch,40,37,5.62,58,6.16,['Copper']
+LV to MV common-metal reserve,stock,branch,40,26,9.76,94.0,12.37,"['Gold', 'Tin']"
+MV to HV factory expansion,stock,grid,40,0,,,8.92,"['Nickel', 'Tin']"
+MV to HV factory expansion,custom,branch,40,0,,,12.81,"['Copper', 'Nickel', 'Tin']"
+MV to HV factory expansion,stock,branch,40,0,,,12.86,"['Copper', 'Gold', 'Nickel', 'Tin']"
+Steam iron stress test,stock,grid,40,32,7.47,110.0,8.06,['Tin']
+Steam iron stress test,custom,branch,40,32,10.99,146.5,11.35,"['Copper', 'Iron']"
+Steam iron stress test,stock,branch,40,32,11.0,148.5,11.47,"['Copper', 'Iron', 'Tin']"
+EV drill common-metal subtotal,stock,grid,40,0,,,7.12,"['Nickel', 'Tin']"
+EV drill common-metal subtotal,custom,branch,40,0,,,11.68,['Nickel']
+EV drill common-metal subtotal,stock,branch,40,0,,,11.81,"['Copper', 'Gold', 'Nickel', 'Tin']"

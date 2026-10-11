@@ -1,0 +1,272 @@
+[
+  {
+    "stage": "Starter copper head",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 40,
+    "medianCompletedHours": 0.24,
+    "medianCompletedRepairs": 7.0,
+    "medianProcessingSingleLaneHours": 0.02
+  },
+  {
+    "stage": "Starter copper head",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 1.02,
+    "medianCompletedRepairs": 26.0,
+    "medianProcessingSingleLaneHours": 0.02
+  },
+  {
+    "stage": "Starter copper head",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 40,
+    "medianCompletedHours": 3.5,
+    "medianCompletedRepairs": 79.0,
+    "medianProcessingSingleLaneHours": 0.02
+  },
+  {
+    "stage": "Bronze tooling and initial iron",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 1.9,
+    "medianCompletedRepairs": 50.5,
+    "medianProcessingSingleLaneHours": 1.05
+  },
+  {
+    "stage": "Bronze tooling and initial iron",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 32,
+    "complete": 31,
+    "medianCompletedHours": 1.45,
+    "medianCompletedRepairs": 38,
+    "medianProcessingSingleLaneHours": 0.31
+  },
+  {
+    "stage": "Bronze tooling and initial iron",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 28,
+    "medianCompletedHours": 8.41,
+    "medianCompletedRepairs": 200.0,
+    "medianProcessingSingleLaneHours": 0.87
+  },
+  {
+    "stage": "Steam starter machines",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 32,
+    "complete": 32,
+    "medianCompletedHours": 0.11,
+    "medianCompletedRepairs": 1.0,
+    "medianProcessingSingleLaneHours": 0.32
+  },
+  {
+    "stage": "Steam starter machines",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 31,
+    "complete": 31,
+    "medianCompletedHours": 2.18,
+    "medianCompletedRepairs": 26,
+    "medianProcessingSingleLaneHours": 0.59
+  },
+  {
+    "stage": "Steam starter machines",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 28,
+    "complete": 22,
+    "medianCompletedHours": 5.34,
+    "medianCompletedRepairs": 63.0,
+    "medianProcessingSingleLaneHours": 0.7
+  },
+  {
+    "stage": "Bricked blast furnace minerals",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 32,
+    "complete": 24,
+    "medianCompletedHours": 3.47,
+    "medianCompletedRepairs": 47.5,
+    "medianProcessingSingleLaneHours": 0.27
+  },
+  {
+    "stage": "Bricked blast furnace minerals",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 31,
+    "complete": 29,
+    "medianCompletedHours": 3.95,
+    "medianCompletedRepairs": 49,
+    "medianProcessingSingleLaneHours": 0.26
+  },
+  {
+    "stage": "Bricked blast furnace minerals",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 22,
+    "complete": 1,
+    "medianCompletedHours": 22.43,
+    "medianCompletedRepairs": 275,
+    "medianProcessingSingleLaneHours": 1.12
+  },
+  {
+    "stage": "Steam steel and LV working stock",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 24,
+    "complete": 24,
+    "medianCompletedHours": 0.45,
+    "medianCompletedRepairs": 4.5,
+    "medianProcessingSingleLaneHours": 6.28
+  },
+  {
+    "stage": "Steam steel and LV working stock",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 29,
+    "complete": 29,
+    "medianCompletedHours": 4.85,
+    "medianCompletedRepairs": 60,
+    "medianProcessingSingleLaneHours": 8.85
+  },
+  {
+    "stage": "Steam steel and LV working stock",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 1,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "LV EBF mica and nickel reserve",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 24,
+    "complete": 16,
+    "medianCompletedHours": 2.22,
+    "medianCompletedRepairs": 19.5,
+    "medianProcessingSingleLaneHours": 1.46
+  },
+  {
+    "stage": "LV EBF mica and nickel reserve",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 29,
+    "complete": 26,
+    "medianCompletedHours": 6.54,
+    "medianCompletedRepairs": 53.0,
+    "medianProcessingSingleLaneHours": 3.02
+  },
+  {
+    "stage": "LV EBF mica and nickel reserve",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 0,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "LV to MV common-metal reserve",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 16,
+    "complete": 16,
+    "medianCompletedHours": 0.18,
+    "medianCompletedRepairs": 1.0,
+    "medianProcessingSingleLaneHours": 3.08
+  },
+  {
+    "stage": "LV to MV common-metal reserve",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 26,
+    "complete": 26,
+    "medianCompletedHours": 4.82,
+    "medianCompletedRepairs": 32.0,
+    "medianProcessingSingleLaneHours": 4.07
+  },
+  {
+    "stage": "LV to MV common-metal reserve",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 0,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "MV to HV common-metal expansion",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 16,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "MV to HV common-metal expansion",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 26,
+    "complete": 1,
+    "medianCompletedHours": 20.05,
+    "medianCompletedRepairs": 190,
+    "medianProcessingSingleLaneHours": 16.31
+  },
+  {
+    "stage": "MV to HV common-metal expansion",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 0,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "EV drill common-metal subtotal",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 0,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "EV drill common-metal subtotal",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 1,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  },
+  {
+    "stage": "EV drill common-metal subtotal",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 0,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianProcessingSingleLaneHours": null
+  }
+]

@@ -1,0 +1,4176 @@
+{
+  "drillRecipes": [
+    {
+      "map": "gt.recipe.assembler",
+      "inputs": [
+        {
+          "key": "gregtech:gt.blockmachines:14",
+          "count": 1,
+          "name": "EV Machine Hull",
+          "identity": "null:Titanium",
+          "materials": [
+            {
+              "material": "Titanium",
+              "amount": 29030400
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.blockframes:28",
+          "count": 4,
+          "name": "Titanium Frame Box",
+          "identity": "frameGt:Titanium",
+          "materials": [
+            {
+              "material": "Titanium",
+              "amount": 7257600
+            }
+          ]
+        },
+        {
+          "key": "dreamcraft:CircuitEV:0",
+          "count": 4,
+          "name": "Any EV Circuit",
+          "identity": "circuit:Data",
+          "materials": [
+            {
+              "material": "Data",
+              "amount": -1
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:32603",
+          "count": 4,
+          "name": "Electric Motor (EV)",
+          "identity": "null:BlackSteel",
+          "materials": [
+            {
+              "material": "BlackSteel",
+              "amount": 29030400
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:32613",
+          "count": 4,
+          "name": "Electric Pump (EV)",
+          "identity": "null:BlackSteel",
+          "materials": [
+            {
+              "material": "BlackSteel",
+              "amount": 29030400
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:32633",
+          "count": 4,
+          "name": "Conveyor Module (EV)",
+          "identity": "null:BlackSteel",
+          "materials": [
+            {
+              "material": "BlackSteel",
+              "amount": 58060800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.02:31081",
+          "count": 4,
+          "name": "Tungsten Gear",
+          "identity": "gearGt:Tungsten",
+          "materials": [
+            {
+              "material": "Tungsten",
+              "amount": 14515200
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:2",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.blockmachines:1158",
+          "count": 1,
+          "name": "Ore Drilling Plant",
+          "identity": "gt.blockmachines.multimachine.oredrill1"
+        }
+      ],
+      "fluidInputs": [
+        {
+          "key": "molten.solderingalloy",
+          "count": 72
+        }
+      ],
+      "fluidOutputs": [],
+      "eut": 1920,
+      "ticks": 400,
+      "special": 0
+    }
+  ],
+  "steelRecipes": [
+    {
+      "map": "gt.recipe.blastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 1,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:11",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [
+        [
+          {
+            "key": "gregtech:gt.metaitem.01:2032",
+            "count": 1,
+            "name": "Iron Dust",
+            "identity": "dust:Iron",
+            "materials": [
+              {
+                "material": "Iron",
+                "amount": 3628800
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "key": "IC2:itemDust:2",
+            "count": 1,
+            "name": "Coal Dust",
+            "identity": "dust:Coal",
+            "materials": [
+              {
+                "material": "Coal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2010",
+            "count": 1,
+            "name": "Carbon Dust",
+            "identity": "dust:Carbon",
+            "materials": [
+              {
+                "material": "Carbon",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2535",
+            "count": 1,
+            "name": "Coal Dust",
+            "identity": "dust:Coal",
+            "materials": [
+              {
+                "material": "Coal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2536",
+            "count": 1,
+            "name": "Charcoal Dust",
+            "identity": "dust:Charcoal",
+            "materials": [
+              {
+                "material": "Charcoal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2538",
+            "count": 1,
+            "name": "Lignite Coal Dust",
+            "identity": "dust:Lignite",
+            "materials": [
+              {
+                "material": "Lignite",
+                "amount": 3628800
+              }
+            ]
+          }
+        ]
+      ],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [
+        {
+          "key": "oxygen",
+          "count": 1000
+        }
+      ],
+      "fluidOutputs": [
+        {
+          "key": "carbondioxide",
+          "count": 250
+        }
+      ],
+      "eut": 120,
+      "ticks": 500,
+      "special": 1000,
+      "chances": [
+        10000,
+        1111
+      ]
+    },
+    {
+      "map": "gt.recipe.blastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 50,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 1,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:2",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [
+        [
+          {
+            "key": "gregtech:gt.metaitem.01:2032",
+            "count": 50,
+            "name": "Iron Dust",
+            "identity": "dust:Iron",
+            "materials": [
+              {
+                "material": "Iron",
+                "amount": 3628800
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "key": "IC2:itemDust:2",
+            "count": 1,
+            "name": "Coal Dust",
+            "identity": "dust:Coal",
+            "materials": [
+              {
+                "material": "Coal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2010",
+            "count": 1,
+            "name": "Carbon Dust",
+            "identity": "dust:Carbon",
+            "materials": [
+              {
+                "material": "Carbon",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2535",
+            "count": 1,
+            "name": "Coal Dust",
+            "identity": "dust:Coal",
+            "materials": [
+              {
+                "material": "Coal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2536",
+            "count": 1,
+            "name": "Charcoal Dust",
+            "identity": "dust:Charcoal",
+            "materials": [
+              {
+                "material": "Charcoal",
+                "amount": 3628800
+              }
+            ]
+          },
+          {
+            "key": "gregtech:gt.metaitem.01:2538",
+            "count": 1,
+            "name": "Lignite Coal Dust",
+            "identity": "dust:Lignite",
+            "materials": [
+              {
+                "material": "Lignite",
+                "amount": 3628800
+              }
+            ]
+          }
+        ]
+      ],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 50,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 1920,
+      "ticks": 3000,
+      "special": 2000,
+      "chances": [
+        10000,
+        1111
+      ]
+    },
+    {
+      "map": "gt.recipe.blastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2304",
+          "count": 1,
+          "name": "Cast Iron Dust",
+          "identity": "dust:CastIron",
+          "materials": [
+            {
+              "material": "CastIron",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:11",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [
+        {
+          "key": "oxygen",
+          "count": 1000
+        }
+      ],
+      "fluidOutputs": [],
+      "eut": 120,
+      "ticks": 100,
+      "special": 1000,
+      "chances": [
+        10000,
+        1111
+      ]
+    },
+    {
+      "map": "gt.recipe.blastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:1",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 120,
+      "ticks": 1000,
+      "special": 1000
+    },
+    {
+      "map": "gt.recipe.blastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2355",
+          "count": 1,
+          "name": "Magnetic Steel Dust",
+          "identity": "dust:SteelMagnetic",
+          "materials": [
+            {
+              "material": "SteelMagnetic",
+              "amount": 3628800
+            }
+          ]
+        },
+        {
+          "key": "gregtech:gt.integrated_circuit:1",
+          "count": 0,
+          "name": "Programmed Circuit",
+          "identity": "gt.integrated_circuit"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 120,
+      "ticks": 1000,
+      "special": 1000
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:0",
+          "count": 4,
+          "name": "Coal",
+          "identity": "gem:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 4,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:1",
+          "count": 4,
+          "name": "Charcoal",
+          "identity": "gem:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2536",
+          "count": 4,
+          "name": "Charcoal Dust",
+          "identity": "dust:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:fuel.coke:0",
+          "count": 2,
+          "name": "Coal Coke",
+          "identity": "item.railcraft.fuel.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemCactusCoke:0",
+          "count": 8,
+          "name": "Cactus Coke",
+          "identity": "item.itemCactusCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        8888
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 1,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemSugarCoke:0",
+          "count": 8,
+          "name": "Sugar Coke",
+          "identity": "item.itemSugarCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        8888
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal_block:0",
+          "count": 4,
+          "name": "Block of Coal",
+          "identity": "block:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.blockgem3:4",
+          "count": 4,
+          "name": "Block of Charcoal",
+          "identity": "block:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:cube:0",
+          "count": 2,
+          "name": "Block of Coal Coke",
+          "identity": "tile.railcraft.cube.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 2,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockCactusCoke:0",
+          "count": 8,
+          "name": "Block of Cactus Coke",
+          "identity": "tile.blockCactusCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockSugarCoke:0",
+          "count": 8,
+          "name": "Block of Sugar Coke",
+          "identity": "tile.blockSugarCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_ingot:0",
+          "count": 10,
+          "name": "Iron Ingot",
+          "identity": "ingot:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Thaumcraft:ItemResource:0",
+          "count": 8,
+          "name": "Alumentum",
+          "identity": "item.ItemResource.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:0",
+          "count": 4,
+          "name": "Coal",
+          "identity": "gem:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 4,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:1",
+          "count": 4,
+          "name": "Charcoal",
+          "identity": "gem:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2536",
+          "count": 4,
+          "name": "Charcoal Dust",
+          "identity": "dust:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:fuel.coke:0",
+          "count": 2,
+          "name": "Coal Coke",
+          "identity": "item.railcraft.fuel.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemCactusCoke:0",
+          "count": 8,
+          "name": "Cactus Coke",
+          "identity": "item.itemCactusCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        8888
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 1,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemSugarCoke:0",
+          "count": 8,
+          "name": "Sugar Coke",
+          "identity": "item.itemSugarCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        8888
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal_block:0",
+          "count": 4,
+          "name": "Block of Coal",
+          "identity": "block:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.blockgem3:4",
+          "count": 4,
+          "name": "Block of Charcoal",
+          "identity": "block:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:cube:0",
+          "count": 2,
+          "name": "Block of Coal Coke",
+          "identity": "tile.railcraft.cube.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 2,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockCactusCoke:0",
+          "count": 8,
+          "name": "Block of Cactus Coke",
+          "identity": "tile.blockCactusCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockSugarCoke:0",
+          "count": 8,
+          "name": "Block of Sugar Coke",
+          "identity": "tile.blockSugarCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2032",
+          "count": 10,
+          "name": "Iron Dust",
+          "identity": "dust:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Thaumcraft:ItemResource:0",
+          "count": 8,
+          "name": "Alumentum",
+          "identity": "item.ItemResource.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:0",
+          "count": 36,
+          "name": "Coal",
+          "identity": "gem:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 64800,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 36,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 64800,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:1",
+          "count": 36,
+          "name": "Charcoal",
+          "identity": "gem:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 64800,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2536",
+          "count": 36,
+          "name": "Charcoal Dust",
+          "identity": "dust:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 4,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 64800,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:fuel.coke:0",
+          "count": 18,
+          "name": "Coal Coke",
+          "identity": "item.railcraft.fuel.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 2,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 43200,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemCactusCoke:0",
+          "count": 64,
+          "name": "Cactus Coke",
+          "identity": "item.itemCactusCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 43200,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "minecraft:iron_block:0",
+          "count": 1,
+          "name": "Block of Iron",
+          "identity": "block:Iron",
+          "materials": [
+            {
+              "material": "Iron",
+              "amount": 32659200
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemSugarCoke:0",
+          "count": 64,
+          "name": "Sugar Coke",
+          "identity": "item.itemSugarCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 9,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 8,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 43200,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:0",
+          "count": 2,
+          "name": "Coal",
+          "identity": "gem:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2535",
+          "count": 2,
+          "name": "Coal Dust",
+          "identity": "dust:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal:1",
+          "count": 2,
+          "name": "Charcoal",
+          "identity": "gem:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2536",
+          "count": 2,
+          "name": "Charcoal Dust",
+          "identity": "dust:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 1,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 7200,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        2222
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:fuel.coke:0",
+          "count": 1,
+          "name": "Coal Coke",
+          "identity": "item.railcraft.fuel.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        1111
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemCactusCoke:0",
+          "count": 4,
+          "name": "Cactus Coke",
+          "identity": "item.itemCactusCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 1,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:itemSugarCoke:0",
+          "count": 4,
+          "name": "Sugar Coke",
+          "identity": "item.itemSugarCoke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 1,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 4800,
+      "special": 0,
+      "chances": [
+        10000,
+        10000,
+        4444
+      ]
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "minecraft:coal_block:0",
+          "count": 2,
+          "name": "Block of Coal",
+          "identity": "block:Coal",
+          "materials": [
+            {
+              "material": "Coal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 2,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.blockgem3:4",
+          "count": 2,
+          "name": "Block of Charcoal",
+          "identity": "block:Charcoal",
+          "materials": [
+            {
+              "material": "Charcoal",
+              "amount": 32659200
+            }
+          ]
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2816",
+          "count": 2,
+          "name": "Dark Ashes",
+          "identity": "dust:DarkAsh",
+          "materials": [
+            {
+              "material": "DarkAsh",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 72000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Railcraft:cube:0",
+          "count": 1,
+          "name": "Block of Coal Coke",
+          "identity": "tile.railcraft.cube.coke"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 1,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockCactusCoke:0",
+          "count": 4,
+          "name": "Block of Cactus Coke",
+          "identity": "tile.blockCactusCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 4,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "miscutils:blockSugarCoke:0",
+          "count": 4,
+          "name": "Block of Sugar Coke",
+          "identity": "tile.blockSugarCoke.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 4,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    },
+    {
+      "map": "gt.recipe.primitiveblastfurnace",
+      "inputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:2305",
+          "count": 10,
+          "name": "Steel Dust",
+          "identity": "dust:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "Thaumcraft:ItemResource:0",
+          "count": 4,
+          "name": "Alumentum",
+          "identity": "item.ItemResource.0"
+        }
+      ],
+      "alternatives": [],
+      "outputs": [
+        {
+          "key": "gregtech:gt.metaitem.01:11305",
+          "count": 10,
+          "name": "Steel Ingot",
+          "identity": "ingot:Steel",
+          "materials": [
+            {
+              "material": "Steel",
+              "amount": 3628800
+            }
+          ]
+        },
+        null,
+        {
+          "key": "gregtech:gt.metaitem.01:2815",
+          "count": 4,
+          "name": "Ashes",
+          "identity": "dust:Ash",
+          "materials": [
+            {
+              "material": "Ash",
+              "amount": 3628800
+            }
+          ]
+        }
+      ],
+      "fluidInputs": [],
+      "fluidOutputs": [],
+      "eut": 0,
+      "ticks": 48000,
+      "special": 0
+    }
+  ],
+  "nativeTools": [
+    {
+      "tool": "Flint",
+      "stoneBlocks": 1000,
+      "durability": 113,
+      "ticks": 12000.0,
+      "repairs": [
+        {
+          "atStone": 105,
+          "before": 105,
+          "after": 7,
+          "gain": 98
+        },
+        {
+          "atStone": 203,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 308,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 413,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 518,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 623,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 728,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 833,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        },
+        {
+          "atStone": 938,
+          "before": 105,
+          "after": 0,
+          "gain": 105
+        }
+      ],
+      "finalDamage": 62,
+      "finalNBT": "{HarvestLevel:1,BaseDurability:113,BonusDurability:0,ToolEXP:421L,Broken:0b,Head:3,Shoddy:0.0f,HarvestLevelModified:1b,Accessory:0,ModDurability:0.0f,Attack:3,MiningSpeed:400,RenderAccessory:0,Modifiers:2,TotalDurability:113,RenderHead:3,Handle:0,Damage:62,BaseAttack:3,RenderHandle:0,Unbreaking:0,ExtraRedstone:1000,RepairCount:9,HeadEXP:0L,ToolLevel:3}"
+    },
+    {
+      "tool": "Copper",
+      "stoneBlocks": 1000,
+      "durability": 135,
+      "ticks": 9000.0,
+      "repairs": [
+        {
+          "atStone": 127,
+          "before": 127,
+          "after": 17,
+          "gain": 110
+        },
+        {
+          "atStone": 237,
+          "before": 127,
+          "after": 19,
+          "gain": 108
+        },
+        {
+          "atStone": 345,
+          "before": 127,
+          "after": 20,
+          "gain": 107
+        },
+        {
+          "atStone": 452,
+          "before": 127,
+          "after": 5,
+          "gain": 122
+        },
+        {
+          "atStone": 574,
+          "before": 127,
+          "after": 7,
+          "gain": 120
+        },
+        {
+          "atStone": 694,
+          "before": 127,
+          "after": 8,
+          "gain": 119
+        },
+        {
+          "atStone": 813,
+          "before": 127,
+          "after": 9,
+          "gain": 118
+        },
+        {
+          "atStone": 931,
+          "before": 127,
+          "after": 0,
+          "gain": 127
+        }
+      ],
+      "finalDamage": 69,
+      "finalNBT": "{BonusDurability:0,BaseDurability:135,HarvestLevel:2,Attack:3,Broken:0b,ModDurability:0.0f,Accessory:0,HarvestLevelModified:1b,Shoddy:0.0f,Head:13,ToolEXP:171L,RenderAccessory:0,MiningSpeed:500,Modifiers:2,TotalDurability:135,RenderHead:13,Handle:0,Damage:69,BaseAttack:3,RenderHandle:0,Unbreaking:0,RepairCount:8,ExtraRedstone:1000,HeadEXP:0L,ToolLevel:3}"
+    },
+    {
+      "tool": "Bronze",
+      "stoneBlocks": 1000,
+      "durability": 285,
+      "ticks": 7000.0,
+      "repairs": [
+        {
+          "atStone": 347,
+          "before": 277,
+          "after": 83,
+          "gain": 194
+        },
+        {
+          "atStone": 582,
+          "before": 277,
+          "after": 58,
+          "gain": 219
+        },
+        {
+          "atStone": 846,
+          "before": 277,
+          "after": 60,
+          "gain": 217
+        }
+      ],
+      "finalDamage": 187,
+      "finalNBT": "{HarvestLevel:4,BaseDurability:285,BonusDurability:0,ToolEXP:536L,Broken:0b,Head:14,Shoddy:0.0f,HarvestLevelModified:1b,Accessory:0,ModDurability:0.0f,Attack:4,MiningSpeed:650,RenderAccessory:0,Modifiers:1,TotalDurability:285,RenderHead:14,Handle:0,Damage:187,BaseAttack:4,RenderHandle:0,Unbreaking:1,ExtraRedstone:1000,RepairCount:3,HeadEXP:0L,ToolLevel:2}"
+    },
+    {
+      "tool": "Steel",
+      "stoneBlocks": 1000,
+      "durability": 300,
+      "ticks": 7000.0,
+      "repairs": [
+        {
+          "atStone": 453,
+          "before": 292,
+          "after": 89,
+          "gain": 203
+        },
+        {
+          "atStone": 758,
+          "before": 292,
+          "after": 63,
+          "gain": 229
+        }
+      ],
+      "finalDamage": 218,
+      "finalNBT": "{BonusDurability:0,BaseDurability:300,HarvestLevel:5,Attack:4,Broken:0b,ModDurability:0.0f,Accessory:0,HarvestLevelModified:1b,Shoddy:0.0f,Head:16,ToolEXP:510L,RenderAccessory:0,MiningSpeed:700,Modifiers:1,TotalDurability:300,RenderHead:16,Handle:0,Damage:218,BaseAttack:4,RenderHandle:0,Unbreaking:2,RepairCount:2,ExtraRedstone:1000,HeadEXP:0L,ToolLevel:2}"
+    }
+  ],
+  "dimensionalOreCensus": [
+    {
+      "run": "seed1-stock-v3",
+      "dimension": "Overworld",
+      "normalOreBlocks": {
+        "GlauconiteSand": 208,
+        "Kaolinite": 1166,
+        "Zeolite": 958,
+        "FullersEarth": 4439,
+        "GraniticMineralSand": 4179,
+        "VanadiumMagnetite": 4530,
+        "Magnetite": 9666,
+        "BasalticMineralSand": 4005,
+        "Gypsum": 939,
+        "Gold": 1345,
+        "Pyrite": 6289,
+        "YellowLimonite": 7562,
+        "BrownLimonite": 8585,
+        "Malachite": 1928,
+        "BandedIron": 7188,
+        "Iron": 6632,
+        "Copper": 1611,
+        "Chalcopyrite": 7057,
+        "Lignite": 19349,
+        "Coal": 20864,
+        "GarnetSand": 2623,
+        "Asbestos": 2406,
+        "CassiteriteSand": 2438,
+        "Diatomite": 683,
+        "Lapis": 2660,
+        "Lazurite": 3438,
+        "Sodalite": 3086,
+        "Calcite": 609,
+        "Grossular": 786,
+        "Pyrolusite": 673,
+        "Spessartine": 806,
+        "Tantalite": 199,
+        "RockSalt": 653,
+        "Spodumene": 166,
+        "Lepidolite": 551,
+        "Salt": 605,
+        "TricalciumPhosphate": 1598,
+        "Apatite": 3264,
+        "Pyrochlore": 434,
+        "Oilsands": 8083,
+        "Ruby": 1742,
+        "Redstone": 3737,
+        "Cinnabar": 454,
+        "AnyCarbon": 25,
+        "Glauconite": 494,
+        "Pentlandite": 134,
+        "Talc": 566,
+        "Soapstone": 511,
+        "Zinc": 33,
+        "Mica": 1140,
+        "Pollucite": 297,
+        "Kyanite": 1068,
+        "Cassiterite": 1016,
+        "Graphite": 568,
+        "Diamond": 307
+      }
+    },
+    {
+      "run": "seed1-stock-v3",
+      "dimension": "extra/Nether",
+      "normalOreBlocks": {
+        "Pyrite": 8270,
+        "Chalcopyrite": 1021,
+        "Iron": 1049,
+        "Cobalt": 576,
+        "Copper": 2331,
+        "Ardite": 528,
+        "Debris": 414,
+        "NetherQuartz": 4120,
+        "Sulfur": 16074,
+        "Sphalerite": 1786,
+        "Firestone": 7,
+        "Cinnabar": 338,
+        "Redstone": 2584,
+        "Ruby": 1178,
+        "Quartzite": 134,
+        "Tetrahedrite": 4175,
+        "Stibnite": 547,
+        "YellowLimonite": 2410,
+        "Malachite": 523,
+        "BandedIron": 1675,
+        "BrownLimonite": 1772,
+        "Saltpeter": 85,
+        "Diatomite": 61,
+        "Electrotine": 65,
+        "Alunite": 21
+      }
+    },
+    {
+      "run": "seed1-stock-v3",
+      "dimension": "extra/moon",
+      "normalOreBlocks": {
+        "Ilmenite": 5742,
+        "Aluminium": 4125,
+        "Bauxite": 4567,
+        "Galena": 7310,
+        "Silver": 3059,
+        "Lead": 648,
+        "Iron": 4198,
+        "Pyrite": 3987,
+        "Chalcopyrite": 4167,
+        "Copper": 1053,
+        "Monazite": 1045,
+        "Bastnasite": 2281,
+        "Neodymium": 307,
+        "Molybdenite": 19,
+        "Molybdenum": 9,
+        "Powellite": 5,
+        "Wulfenite": 14
+      }
+    },
+    {
+      "run": "seed1-custom-v2",
+      "dimension": "Overworld",
+      "normalOreBlocks": {
+        "Kaolinite": 3289,
+        "VanadiumMagnetite": 7740,
+        "Magnetite": 24638,
+        "Lignite": 4717,
+        "Gypsum": 1076,
+        "GraniticMineralSand": 3085,
+        "FullersEarth": 4937,
+        "BasalticMineralSand": 3189,
+        "Iron": 6071,
+        "Malachite": 2213,
+        "YellowLimonite": 6205,
+        "Coal": 9296,
+        "Oilsands": 3285,
+        "BandedIron": 4242,
+        "Gold": 2673,
+        "Salt": 1595,
+        "RockSalt": 1592,
+        "BrownLimonite": 6486,
+        "Pyrite": 2893,
+        "Chalcopyrite": 4211,
+        "Lepidolite": 1397,
+        "Apatite": 5225,
+        "Sodalite": 1343,
+        "Tin": 1073,
+        "Redstone": 4212,
+        "GlauconiteSand": 1093,
+        "Zeolite": 3254,
+        "Lazurite": 1196,
+        "Pyrochlore": 985,
+        "Cassiterite": 2252,
+        "Pollucite": 638,
+        "Mica": 1826,
+        "Kyanite": 1443,
+        "TricalciumPhosphate": 2252,
+        "Talc": 1727,
+        "Spodumene": 696,
+        "Copper": 1206,
+        "Alunite": 211,
+        "Asbestos": 1673,
+        "Diatomite": 727,
+        "GarnetSand": 1846,
+        "CassiteriteSand": 1819,
+        "Pentlandite": 667,
+        "Glauconite": 1488,
+        "Vermiculite": 538,
+        "Soapstone": 1719,
+        "Cinnabar": 981,
+        "Graphite": 2322,
+        "Diamond": 1138,
+        "Calcite": 490,
+        "Lapis": 1485,
+        "Ruby": 1903,
+        "Tantalite": 261,
+        "Spessartine": 733,
+        "Pyrolusite": 677,
+        "Grossular": 648,
+        "AnyCarbon": 25,
+        "Zinc": 33
+      }
+    },
+    {
+      "run": "seed1-custom-v2",
+      "dimension": "extra/Nether",
+      "normalOreBlocks": {
+        "Pyrite": 4116,
+        "Sulfur": 6755,
+        "Chalcopyrite": 886,
+        "Tetrahedrite": 2228,
+        "Malachite": 821,
+        "YellowLimonite": 2473,
+        "Cobalt": 579,
+        "BandedIron": 2087,
+        "Sphalerite": 1372,
+        "Copper": 1386,
+        "BrownLimonite": 2418,
+        "Ardite": 535,
+        "Iron": 1061,
+        "Debris": 413,
+        "Diatomite": 981,
+        "Stibnite": 414,
+        "Beryllium": 943,
+        "NetherQuartz": 4704,
+        "Redstone": 1899,
+        "Thorium": 191,
+        "Firestone": 7,
+        "Quartzite": 629,
+        "Electrotine": 671,
+        "Emerald": 417,
+        "Cinnabar": 334,
+        "Ruby": 993,
+        "Grossular": 208,
+        "Alunite": 255,
+        "Saltpeter": 1040,
+        "Spessartine": 284,
+        "Powellite": 24,
+        "Molybdenum": 44,
+        "Wulfenite": 101,
+        "Tantalite": 116,
+        "Pyrolusite": 161,
+        "Barite": 184,
+        "CertusQuartz": 191,
+        "Molybdenite": 100
+      }
+    },
+    {
+      "run": "seed1-custom-v2",
+      "dimension": "extra/moon",
+      "normalOreBlocks": {
+        "Aluminium": 2282,
+        "Bauxite": 3044,
+        "Uvarovite": 468,
+        "Ilmenite": 4573,
+        "Silver": 2039,
+        "Chalcopyrite": 4457,
+        "Monazite": 949,
+        "Galena": 4514,
+        "Lead": 795,
+        "Powellite": 40,
+        "Molybdenite": 99,
+        "Copper": 1685,
+        "Iron": 4600,
+        "Molybdenum": 127,
+        "Bastnasite": 2348,
+        "Pyrite": 3752,
+        "Neodymium": 379,
+        "CertusQuartz": 392,
+        "Chromite": 429,
+        "Wulfenite": 146,
+        "Barite": 306,
+        "Quartzite": 267,
+        "Perlite": 223,
+        "Cassiterite": 5,
+        "Tin": 24
+      }
+    },
+    {
+      "run": "seed2-stock",
+      "dimension": "Overworld",
+      "normalOreBlocks": {
+        "Chalcopyrite": 5112,
+        "Iron": 5430,
+        "Pyrite": 4404,
+        "Magnetite": 13973,
+        "VanadiumMagnetite": 6244,
+        "Gold": 1836,
+        "Copper": 1157,
+        "YellowLimonite": 10396,
+        "BandedIron": 9929,
+        "BrownLimonite": 10981,
+        "Malachite": 2608,
+        "Cinnabar": 1022,
+        "Redstone": 7303,
+        "Ruby": 3490,
+        "Coal": 13797,
+        "Graphite": 693,
+        "Diamond": 407,
+        "Cassiterite": 354,
+        "Tin": 882,
+        "Lignite": 2613,
+        "Lazurite": 2845,
+        "Sodalite": 2582,
+        "Lapis": 2280,
+        "Calcite": 514,
+        "Spessartine": 1057,
+        "Grossular": 1071,
+        "Pyrolusite": 1020,
+        "Tantalite": 280,
+        "AnyCarbon": 2,
+        "Asbestos": 3410,
+        "GarnetSand": 3718,
+        "CassiteriteSand": 3497,
+        "Diatomite": 935,
+        "Talc": 510,
+        "Glauconite": 471,
+        "Soapstone": 555,
+        "Pentlandite": 158,
+        "RockSalt": 920,
+        "Salt": 1212,
+        "Lepidolite": 1120,
+        "Spodumene": 272,
+        "GraniticMineralSand": 2794,
+        "FullersEarth": 5154,
+        "BasalticMineralSand": 2871,
+        "Gypsum": 624,
+        "Oilsands": 4047,
+        "GlauconiteSand": 499,
+        "Kaolinite": 2660,
+        "Zeolite": 2904,
+        "Pyrochlore": 414,
+        "Apatite": 3243,
+        "TricalciumPhosphate": 1490
+      }
+    },
+    {
+      "run": "seed2-stock",
+      "dimension": "extra/Nether",
+      "normalOreBlocks": {
+        "Sulfur": 12785,
+        "Pyrite": 6657,
+        "Sphalerite": 1405,
+        "Ardite": 537,
+        "Debris": 392,
+        "Cobalt": 567,
+        "NetherQuartz": 1605,
+        "BandedIron": 2470,
+        "BrownLimonite": 2168,
+        "YellowLimonite": 3247,
+        "Malachite": 643,
+        "Emerald": 1344,
+        "Beryllium": 2873,
+        "Thorium": 395,
+        "Redstone": 850,
+        "Cinnabar": 81,
+        "Ruby": 310,
+        "Chalcopyrite": 755,
+        "Iron": 814,
+        "Copper": 197
+      }
+    },
+    {
+      "run": "seed2-stock",
+      "dimension": "extra/moon",
+      "normalOreBlocks": {
+        "Iron": 3481,
+        "Copper": 916,
+        "Chalcopyrite": 3762,
+        "Pyrite": 3328,
+        "Bauxite": 5201,
+        "Aluminium": 4862,
+        "Ilmenite": 9110,
+        "Chromite": 2602,
+        "Uvarovite": 2453,
+        "Perlite": 601,
+        "Wulfenite": 717,
+        "Molybdenum": 623,
+        "Powellite": 178,
+        "Molybdenite": 670,
+        "Galena": 1857,
+        "Silver": 818,
+        "Lead": 192
+      }
+    },
+    {
+      "run": "seed2-custom",
+      "dimension": "Overworld",
+      "normalOreBlocks": {
+        "Coal": 5428,
+        "TricalciumPhosphate": 1830,
+        "Iron": 4952,
+        "Pollucite": 581,
+        "Pyrite": 2926,
+        "Apatite": 4127,
+        "Chalcopyrite": 4544,
+        "BandedIron": 3960,
+        "Malachite": 1740,
+        "Mica": 1720,
+        "BrownLimonite": 6221,
+        "GarnetSand": 3073,
+        "Cassiterite": 1680,
+        "Soapstone": 1427,
+        "Kyanite": 1498,
+        "YellowLimonite": 6177,
+        "Talc": 1598,
+        "Glauconite": 1505,
+        "Asbestos": 2011,
+        "Pyrolusite": 692,
+        "Magnetite": 18877,
+        "Gold": 2167,
+        "VanadiumMagnetite": 5877,
+        "CassiteriteSand": 2210,
+        "Spodumene": 456,
+        "Salt": 1172,
+        "GlauconiteSand": 671,
+        "Lepidolite": 1029,
+        "Zeolite": 2226,
+        "RockSalt": 1087,
+        "BasalticMineralSand": 3789,
+        "Diatomite": 957,
+        "FullersEarth": 4038,
+        "Kaolinite": 2271,
+        "Sodalite": 1568,
+        "Graphite": 2353,
+        "Oilsands": 2387,
+        "Lazurite": 1479,
+        "Redstone": 3578,
+        "Lignite": 1396,
+        "Diamond": 1058,
+        "Gypsum": 914,
+        "Cinnabar": 844,
+        "GraniticMineralSand": 4054,
+        "Ruby": 1604,
+        "Calcite": 586,
+        "Lapis": 1797,
+        "Pentlandite": 544,
+        "Copper": 1328,
+        "Pyrochlore": 839,
+        "Tantalite": 261,
+        "Spessartine": 715,
+        "Grossular": 632,
+        "Tin": 511,
+        "Alunite": 108,
+        "Vermiculite": 283,
+        "AnyCarbon": 2
+      }
+    },
+    {
+      "run": "seed2-custom",
+      "dimension": "extra/Nether",
+      "normalOreBlocks": {
+        "Pyrite": 4352,
+        "Copper": 1694,
+        "Cinnabar": 364,
+        "Tetrahedrite": 2340,
+        "Stibnite": 467,
+        "Malachite": 742,
+        "Diatomite": 818,
+        "Alunite": 232,
+        "BrownLimonite": 1801,
+        "NetherQuartz": 6697,
+        "Redstone": 1870,
+        "YellowLimonite": 1901,
+        "BandedIron": 1693,
+        "Electrotine": 608,
+        "Sulfur": 6975,
+        "Saltpeter": 762,
+        "Ardite": 539,
+        "Debris": 387,
+        "Iron": 1697,
+        "Chalcopyrite": 1612,
+        "Sphalerite": 1257,
+        "Ruby": 694,
+        "Beryllium": 786,
+        "Quartzite": 757,
+        "Cobalt": 566,
+        "Spessartine": 439,
+        "Tantalite": 101,
+        "Pyrolusite": 222,
+        "Grossular": 333,
+        "Thorium": 159,
+        "Emerald": 328,
+        "CertusQuartz": 198,
+        "Barite": 113,
+        "Molybdenite": 35,
+        "Wulfenite": 29,
+        "Powellite": 7,
+        "Molybdenum": 31
+      }
+    },
+    {
+      "run": "seed2-custom",
+      "dimension": "extra/moon",
+      "normalOreBlocks": {
+        "Iron": 3981,
+        "Uvarovite": 473,
+        "Pyrite": 2993,
+        "Chalcopyrite": 3918,
+        "Ilmenite": 5198,
+        "Lead": 1170,
+        "Galena": 6008,
+        "Copper": 1420,
+        "Bastnasite": 2023,
+        "Silver": 2601,
+        "Molybdenum": 124,
+        "Neodymium": 366,
+        "CertusQuartz": 672,
+        "Aluminium": 2974,
+        "Powellite": 61,
+        "Bauxite": 3352,
+        "Monazite": 786,
+        "Quartzite": 575,
+        "Molybdenite": 233,
+        "Wulfenite": 237,
+        "Perlite": 148,
+        "Chromite": 601,
+        "Barite": 466,
+        "Tin": 117,
+        "Cassiterite": 39
+      }
+    }
+  ],
+  "nativeDrillRuns": [
+    {
+      "tier": "1",
+      "dimension": "Overworld",
+      "ticks": "3916004",
+      "energyProbeEU": "144",
+      "energyProbeTicks": "4",
+      "collectionIntervalTicks": "500",
+      "maintenanceRepairs": "0",
+      "fluidUsed": "32536000",
+      "completed": "true",
+      "state": "UPWARD",
+      "formed": "true",
+      "EUt": "-48",
+      "run": "seed1-stock",
+      "gameHoursAt20TPS": 54.38894444444445
+    },
+    {
+      "tier": "1",
+      "dimension": "Overworld",
+      "ticks": "2543504",
+      "energyProbeEU": "144",
+      "energyProbeTicks": "4",
+      "collectionIntervalTicks": "500",
+      "maintenanceRepairs": "1",
+      "fluidUsed": "21120000",
+      "completed": "true",
+      "state": "UPWARD",
+      "formed": "true",
+      "EUt": "-48",
+      "run": "seed1-custom",
+      "gameHoursAt20TPS": 35.32644444444444
+    },
+    {
+      "tier": "1",
+      "dimension": "Overworld",
+      "ticks": "3433004",
+      "energyProbeEU": "192",
+      "energyProbeTicks": "4",
+      "collectionIntervalTicks": "500",
+      "maintenanceRepairs": "0",
+      "fluidUsed": "28528000",
+      "completed": "true",
+      "state": "UPWARD",
+      "formed": "true",
+      "EUt": "-48",
+      "run": "seed2-stock",
+      "gameHoursAt20TPS": 47.68061111111111
+    },
+    {
+      "tier": "1",
+      "dimension": "Overworld",
+      "ticks": "1909004",
+      "energyProbeEU": "192",
+      "energyProbeTicks": "4",
+      "collectionIntervalTicks": "500",
+      "maintenanceRepairs": "0",
+      "fluidUsed": "15832000",
+      "completed": "true",
+      "state": "UPWARD",
+      "formed": "true",
+      "EUt": "-48",
+      "run": "seed2-custom",
+      "gameHoursAt20TPS": 26.513944444444444
+    }
+  ],
+  "mainJarSHA256": "4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272"
+}

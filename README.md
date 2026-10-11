@@ -45,6 +45,14 @@ Four paired native IV-drill sites gave mean simple-smelting potential/hour chang
 
 Read the [scientific rationale and source references](RESEARCH_AND_LIMITS.md), [experiment and formulas](EXPERIMENT.md), [scanner limits](SCANNER_COMPATIBILITY.md), and [full aggregate evidence](reports/science6-final/results.json). Download the release's evidence ZIP and open `comparison.html` locally for the illustrated report and every paired result.
 
+## Preliminary manual-progression estimates
+
+The [player-policy report and per-attempt data](reports/progression-20261011/README.md) cover 1,080 fixed-policy budget attempts, 120 continuous budget campaigns and 60 exploration/inventory sensitivity campaigns across five paired seeds. The baseline matched comparisons estimated **8.4 extra mining/search hours through an LV resource budget** and **23.9 through an MV reserve budget**. A separate local-probing policy with ore-load trips estimated **8.3 and 18.0 hours**, respectively, on different matched cohorts. The MV comparisons involve only two seeds.
+
+These are **preliminary scripted resource-budget estimates**, not measured human playthrough times or exact costs to reach a tier. Policies recover only encountered ore, not a chunk's complete contents. The report discloses partial recovery, failed/censored searches, native repair/processing measurements, assumptions and missing player strategies. It also corrects the first Ore Drilling Plant distinction: **MV operating power, EV controller components**. No full Stone-to-drill duration, unchanged progression time, or FPS/TPS claim is supported.
+
+The [balance candidates](reports/progression-20261011/README.md#balance-assessment-and-candidates-to-test) propose further tests of early accessible discoveries while retaining bulk supply. This documentation update changes no ore generation or release binary.
+
 ## What changes
 
 Ordinary finds coexist with seams, jackpots and industrial bodies. Mineral families use beds, stockworks, lodes, lenses, pipes, cores, crystal pockets or generic veins. Smooth regional preferences modify odds without excluding eligible background finds. This is geology-inspired game design, not an Earth-crust simulation.

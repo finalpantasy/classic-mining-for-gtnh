@@ -1,0 +1,380 @@
+[
+  {
+    "case": "Flint bootstrap",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 1.78,
+    "medianCompletedRepairs": 46.0,
+    "medianAllHours": 2.62,
+    "missingMaterials": [
+      "Tin"
+    ]
+  },
+  {
+    "case": "Flint bootstrap",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 1.21,
+    "medianCompletedRepairs": 31.0,
+    "medianAllHours": 0.92,
+    "missingMaterials": [
+      "Copper",
+      "Iron",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Flint bootstrap",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 29,
+    "medianCompletedHours": 5.99,
+    "medianCompletedRepairs": 135,
+    "medianAllHours": 6.9,
+    "missingMaterials": [
+      "Copper",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Steam starter factory",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 2.26,
+    "medianCompletedRepairs": 31.0,
+    "medianAllHours": 3.11,
+    "missingMaterials": [
+      "Tin"
+    ]
+  },
+  {
+    "case": "Steam starter factory",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 40,
+    "medianCompletedHours": 2.85,
+    "medianCompletedRepairs": 37.0,
+    "medianAllHours": 2.85,
+    "missingMaterials": []
+  },
+  {
+    "case": "Steam starter factory",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 7.66,
+    "medianCompletedRepairs": 95.0,
+    "medianAllHours": 9.4,
+    "missingMaterials": [
+      "Copper",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Bricked blast furnace minerals",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 24,
+    "medianCompletedHours": 4.01,
+    "medianCompletedRepairs": 57.0,
+    "medianAllHours": 4.89,
+    "missingMaterials": [
+      "Calcite",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Bricked blast furnace minerals",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 25,
+    "medianCompletedHours": 6.64,
+    "medianCompletedRepairs": 84,
+    "medianAllHours": 9.67,
+    "missingMaterials": [
+      "Calcite",
+      "Copper",
+      "Gypsum"
+    ]
+  },
+  {
+    "case": "Bricked blast furnace minerals",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 3,
+    "medianCompletedHours": 21.52,
+    "medianCompletedRepairs": 267,
+    "medianAllHours": 12.48,
+    "missingMaterials": [
+      "Calcite",
+      "Copper",
+      "Gypsum",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Early LV working stock",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 4.26,
+    "medianCompletedRepairs": 62.0,
+    "medianAllHours": 4.79,
+    "missingMaterials": [
+      "Tin"
+    ]
+  },
+  {
+    "case": "Early LV working stock",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 26,
+    "medianCompletedHours": 11.3,
+    "medianCompletedRepairs": 147.0,
+    "medianAllHours": 12.51,
+    "missingMaterials": [
+      "Copper",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Early LV working stock",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 29,
+    "medianCompletedHours": 10.37,
+    "medianCompletedRepairs": 129,
+    "medianAllHours": 12.54,
+    "missingMaterials": [
+      "Copper",
+      "Tin"
+    ]
+  },
+  {
+    "case": "LV blast furnace mica route",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 8,
+    "medianCompletedHours": 4.64,
+    "medianCompletedRepairs": 47.5,
+    "medianAllHours": 5.33,
+    "missingMaterials": [
+      "Mica",
+      "Nickel"
+    ]
+  },
+  {
+    "case": "LV blast furnace mica route",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 3,
+    "medianCompletedHours": 16.99,
+    "medianCompletedRepairs": 164,
+    "medianAllHours": 12.24,
+    "missingMaterials": [
+      "Nickel"
+    ]
+  },
+  {
+    "case": "LV blast furnace mica route",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 12.07,
+    "missingMaterials": [
+      "Copper",
+      "Mica",
+      "Nickel"
+    ]
+  },
+  {
+    "case": "LV to MV common-metal reserve",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 3.5,
+    "medianCompletedRepairs": 39.0,
+    "medianAllHours": 4.32,
+    "missingMaterials": [
+      "Tin"
+    ]
+  },
+  {
+    "case": "LV to MV common-metal reserve",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 37,
+    "medianCompletedHours": 5.62,
+    "medianCompletedRepairs": 58,
+    "medianAllHours": 6.16,
+    "missingMaterials": [
+      "Copper"
+    ]
+  },
+  {
+    "case": "LV to MV common-metal reserve",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 26,
+    "medianCompletedHours": 9.76,
+    "medianCompletedRepairs": 94.0,
+    "medianAllHours": 12.37,
+    "missingMaterials": [
+      "Gold",
+      "Tin"
+    ]
+  },
+  {
+    "case": "MV to HV factory expansion",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 8.92,
+    "missingMaterials": [
+      "Nickel",
+      "Tin"
+    ]
+  },
+  {
+    "case": "MV to HV factory expansion",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 12.81,
+    "missingMaterials": [
+      "Copper",
+      "Nickel",
+      "Tin"
+    ]
+  },
+  {
+    "case": "MV to HV factory expansion",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 12.86,
+    "missingMaterials": [
+      "Copper",
+      "Gold",
+      "Nickel",
+      "Tin"
+    ]
+  },
+  {
+    "case": "Steam iron stress test",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 7.47,
+    "medianCompletedRepairs": 110.0,
+    "medianAllHours": 8.06,
+    "missingMaterials": [
+      "Tin"
+    ]
+  },
+  {
+    "case": "Steam iron stress test",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 10.99,
+    "medianCompletedRepairs": 146.5,
+    "medianAllHours": 11.35,
+    "missingMaterials": [
+      "Copper",
+      "Iron"
+    ]
+  },
+  {
+    "case": "Steam iron stress test",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 32,
+    "medianCompletedHours": 11.0,
+    "medianCompletedRepairs": 148.5,
+    "medianAllHours": 11.47,
+    "missingMaterials": [
+      "Copper",
+      "Iron",
+      "Tin"
+    ]
+  },
+  {
+    "case": "EV drill common-metal subtotal",
+    "mode": "stock",
+    "policy": "grid",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 7.12,
+    "missingMaterials": [
+      "Nickel",
+      "Tin"
+    ]
+  },
+  {
+    "case": "EV drill common-metal subtotal",
+    "mode": "custom",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 11.68,
+    "missingMaterials": [
+      "Nickel"
+    ]
+  },
+  {
+    "case": "EV drill common-metal subtotal",
+    "mode": "stock",
+    "policy": "branch",
+    "attempts": 40,
+    "complete": 0,
+    "medianCompletedHours": null,
+    "medianCompletedRepairs": null,
+    "medianAllHours": 11.81,
+    "missingMaterials": [
+      "Copper",
+      "Gold",
+      "Nickel",
+      "Tin"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "report": "preliminary player-policy evidence",
+  "sourceFiles": {
+    "scenario-summary.json": "76af76fd2856f2b5ace6d3f7777c13ed7f584be069ff35288033f33e57360678",
+    "scenario-summary.csv": "fc8133f177ce9f7d181191ed8d7bb9c5a6b746e305c2fdd82981258481222d13",
+    "paired-scenario-summary.json": "6ee0f9a24e33bbb74f5b682e06f28111730359ef2d22cf836368cc6973b7efbc",
+    "campaign-summary.json": "1e7744107c1ffa083dde9db2f51e5dc418c368f0ef57cf3deba550391db8ff97",
+    "matched-campaign-totals.json": "395d19e0af1c79890d2d92159c20f2a6dd39d3390da172ceeb1925935ce98708",
+    "player-simulations.json": "7ffe393f3effc5807d980efa43ef851d46fe48f23d18a706db9035d5ba336424",
+    "sequential-campaigns.json": "329488eb035edbca67fd8ff0ff3f3196e5a598ea1894898c291261b339eaed10",
+    "adaptive-campaigns.json": "b7b0fb1d614e8d819c135d277610980a01cf39b14d6dfb1a8de13d7a92c9ae4e",
+    "adaptive-summary.json": "dae6df23012a84fa1c1e3dd9791d4e29e8f050c309ef94aa71d827430059cd20",
+    "native-facts.json": "41592cbdfb226fb1737e0d76571c891153f00722f0539e2f211a2449a04fa8eb",
+    "basic-processing.json": "074cfc848d3cf7b32b8f6b97e608ed0769f33e557203c9ae546b523dc6ebd174",
+    "validation.json": "694b75092ec7104d9e171db49cfd885290a70a69042ece948e7104072390a9f8"
+  },
+  "methodOriginalSourceSHA256": {
+    "simulate_players.py": "76f042503cd6269aa30fc1c0aa8a79b57e6520a6615aaa3106e8782fa57264ce",
+    "sequential_players.py": "ab67bc4a5ee1bb2cfc420f5227a228cd8c3635c3380bab515dba4378aaa608ec",
+    "adaptive_players.py": "23ae64032519b534c372a1b975e1c03e013dc2b890c7759e82e61df1761c6f89",
+    "basic_processing.py": "f457b5b4c0e3594ad6df47be92b7fdf28e630e4ccb4fd45ff6588c21d90c5a49",
+    "summarize_adaptive.py": "1de3cc9a3f638db9874e1af08b3784cae7538c3d2aba7a4fa9599cb1d594e34c"
+  },
+  "publicFiles": {
+    "adaptive-campaigns.json": "d2c518c84cb1a52df239036acd56403ef19d9aee67cb45d508fe53602ff86c03",
+    "adaptive-summary.json": "1e2ca9c28ef47d9fdf2a96437db2b92ee35eefe12e2a249647ae3fc0dc1adbf1",
+    "basic-processing.json": "57b48321afbc1cacaf31b051df5db3c136a4499569763a374d9da50a97a94296",
+    "campaign-summary.json": "613353c9c3fd7385081286efe53a1ccabf8aa7edc17880ef9ce01323de56d9a2",
+    "matched-campaign-totals.json": "63455fac7207fb22e51d9519816685ba706dc44c61b855aaf38ed05cb0b441a2",
+    "native-facts.json": "a526e5863b12d1ebd6c7a6765378dcd4e688f0463775148cb4de1c9754f6929c",
+    "paired-scenario-summary.json": "b1d22ee3857dadfe667d3aa6f93c7393530d1e7864ac17cda432ddf93ac7b71d",
+    "player-simulations.json": "0dcc7a8bbf39080da42bc2c3736436257df0048785de6609303b228864a02dc2",
+    "README.md": "affb8d71196a7a054390528bcf111d09f6689b6fbee29fcb9789c8d286801125",
+    "scenario-summary.csv": "01886e45fd078a67a119379b3318b70f9d4074e49b3e9f41c56ed1808e74f70c",
+    "scenario-summary.json": "00e73a6cdb8ec8d36e250e44f0c5a872a05cf8b48fe879435410c581f18550d0",
+    "sequential-campaigns.json": "1a43ae8f41bff200225ba7ebce1e0f4b3644846546e94231f3dcfdd5f0057067",
+    "validation.json": "5c12cf91fcc61cef8fae3b4a19c1285d9c353f949bf27115100e65cc69fde9c9",
+    "method/adaptive_players.py": "7b1a2969c062d290216385c6171e67732cf8e581d9c0ae57085e823276670e42",
+    "method/basic_processing.py": "d2c5cc570d7982ea4ce21cf61d6102254ae7676e7ce2a46b0eb9e980af67740a",
+    "method/README.md": "6eae52ad4a82a311ce3694f558f9d8e09633597b8ac6ab5b2a67febfb7e7d569",
+    "method/sequential_players.py": "1cd8f40b9ac9c3def115cfe3dd125f95e7b30b80a55f7b742fe669420bde0f99",
+    "method/simulate_players.py": "a1be68f6f2e243b78fe138b563e3fc9ee75c79a19b2d311aa24c496b5b6b4728",
+    "method/summarize_adaptive.py": "3dd1f6d28ceba73fca07e537a258cd4b57610361510bd91650157f3eedc5a837"
+  },
+  "measuredBinarySHA256": "4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272",
+  "currentPublicBinarySHA256": "86e33e9080c7b4c2ca4a1b49931ba42661123a747a5395a9acf558fdd3323046"
+}

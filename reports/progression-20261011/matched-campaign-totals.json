@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "Through LV working-stock budget",
+    "stockComplete": 24,
+    "customComplete": 29,
+    "attemptsEach": 40,
+    "pairedComplete": 21,
+    "pairedSeedCount": 3,
+    "stockMatchedMiningHours": 7.57,
+    "customMatchedMiningHours": 16.57,
+    "additionalMiningHours": 8.39,
+    "stockMatchedRepairCount": 120,
+    "customMatchedRepairCount": 226,
+    "stockMatchedProcessingQueueHours": 8.06,
+    "customMatchedProcessingQueueHours": 10.36
+  },
+  {
+    "stage": "Through MV reserve budget",
+    "stockComplete": 16,
+    "customComplete": 26,
+    "attemptsEach": 40,
+    "pairedComplete": 12,
+    "pairedSeedCount": 2,
+    "stockMatchedMiningHours": 10.32,
+    "customMatchedMiningHours": 36.64,
+    "additionalMiningHours": 23.94,
+    "stockMatchedRepairCount": 167.5,
+    "customMatchedRepairCount": 412.0,
+    "stockMatchedProcessingQueueHours": 13.63,
+    "customMatchedProcessingQueueHours": 18.11
+  }
+]
