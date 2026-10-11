@@ -1,0 +1,10 @@
+*.jar
+*.log
+qa-server/
+reference/
+build/
+Prism/
+*.dat
+*.csv.gz
+__pycache__/
+*.pyc

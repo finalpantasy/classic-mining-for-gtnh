@@ -1,0 +1,393 @@
+{
+  "algorithm": 6,
+  "candidate_sha256": "4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272",
+  "published": true,
+  "license": "not selected",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 76,
+      "sha256": "db94e013316523bf628e8ad2ae874ccfd3db7c999a8f2aabd3d285b2da6c048e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 92,
+      "sha256": "96d2d470e06004567adc2222a60453740cf3a72beebff22fae283f5d146cf7ef"
+    },
+    {
+      "path": "EXPERIMENT.md",
+      "bytes": 4211,
+      "sha256": "879a39e5af07515051ea9a8538ca391fb1bd74dad199fe1cbaaf7b43db423c92"
+    },
+    {
+      "path": "PUBLICATION_STATUS.md",
+      "bytes": 865,
+      "sha256": "e6fd163e7d363dcafaf1a20324685e389b7e149def083b60860d9e2741aa1178"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7335,
+      "sha256": "d06fd0f4b80c902a0a3752fb742d042398ec4c36979df8d437fe0af436fcca72"
+    },
+    {
+      "path": "RESEARCH_AND_LIMITS.md",
+      "bytes": 4465,
+      "sha256": "60f0d8e4e08cb1f5c161e3ce273d5d177ed3ef81513395ecbaed0be1ec0a9124"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 362,
+      "sha256": "7a1723c30f204bb24ea60c15971590ae535ad28978652d612abf1575339b24cc"
+    },
+    {
+      "path": "SCANNER_COMPATIBILITY.md",
+      "bytes": 1560,
+      "sha256": "8405232ea9b552feb4c1c022855dd09e885e19f482489a594a06eec60ddb8c37"
+    },
+    {
+      "path": "analyze_bulk.py",
+      "bytes": 5233,
+      "sha256": "963c6cf712ac29067f11258561eed3594773bc0adb1065ee0e8fa2c0aaf58278"
+    },
+    {
+      "path": "analyze_native_mining.py",
+      "bytes": 6976,
+      "sha256": "9c955405542253ee4eda823cc30e0e1d467ae244425647af65e2039bb3756f05"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/BalanceProfile.java",
+      "bytes": 1144,
+      "sha256": "bca199ca38d733ab3ead2ff7d57877dca76c94d6296e8ef9679d596c8ffa534d"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/BulkProfile.java",
+      "bytes": 1043,
+      "sha256": "05714a39ec76b58679fd14729bc29b8d7863913785fa6a674039049998933eda"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/ClassicMining.java",
+      "bytes": 1615,
+      "sha256": "4b520e68b38de7b30bf9c646e195650181f4cfaa58241e9cf214c2d80c4e1265"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/CorePlugin.java",
+      "bytes": 607,
+      "sha256": "5488eb0edc3dce3f4567b8a2645fb0242d49d99d573360be50dccea1de03a19c"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/DepositPlanner.java",
+      "bytes": 5461,
+      "sha256": "4d83e36c866676b4a136b9e152efc1ec982eb5b508469c0f573f618583e2b4fa"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/GeologyModel.java",
+      "bytes": 4749,
+      "sha256": "720fe4885f94ce054d1039b34e150b1be122e65538f5e25d500e31af564f933d"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/MassAllocation.java",
+      "bytes": 1972,
+      "sha256": "f72a40b7c61752f22af0d34ca58410f0324686d4946d30a259ca279d4063d079"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/MiningHooks.java",
+      "bytes": 16372,
+      "sha256": "50db46940f712af71aeb8872d72b2dde1fe8cba46f1034a1b4736a237007f3bd"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/NativeMassModel.java",
+      "bytes": 1814,
+      "sha256": "2c3cadaf23f3239165148e27fa1f28557bbed9ee289e490662cfc85f95ff5fa7"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/OreTransformer.java",
+      "bytes": 2442,
+      "sha256": "0ac8da34766b8593cef8ddc55f0e66fe40238c05807faaf2bb6681f75acf4b90"
+    },
+    {
+      "path": "archive/v1-frozen-source/src/classicmining/Reflection.java",
+      "bytes": 1475,
+      "sha256": "77a36b812f956024c3422072cd136c7f1abfd3b29ee1d4fa8e2c579e048b0f74"
+    },
+    {
+      "path": "audit_final.py",
+      "bytes": 6942,
+      "sha256": "c38635a978f722c95dd9a0034d79488a29cbe5ae94409743c6c68a9fc28b28cb"
+    },
+    {
+      "path": "build.py",
+      "bytes": 1554,
+      "sha256": "721c8f5fb62506076bd3f9c64e03ad94080aaaec370dc51157dcf2a1b6686e10"
+    },
+    {
+      "path": "build_qa.py",
+      "bytes": 666,
+      "sha256": "2cf03d3514882ae71fe349216084da42d6e053a9d1e4c5229a081139900729d6"
+    },
+    {
+      "path": "make_report6.py",
+      "bytes": 11884,
+      "sha256": "cb4b44833e674bfd22ac4c4ebd08b5c23423bcf78804a192e749c562d3349d70"
+    },
+    {
+      "path": "qa-src/classicminingqa/MiningWorldTests.java",
+      "bytes": 18655,
+      "sha256": "9f830b63b6b8123f88db6691a22f57fd7ec3965c358708883e5135b8234e839b"
+    },
+    {
+      "path": "qa-src/classicminingqa/NativeMiningTests.java",
+      "bytes": 23665,
+      "sha256": "09c9b6cf4c4deae586758ef017745ca83517960ee87da15ccfc452d0232af0c3"
+    },
+    {
+      "path": "qa-src/classicminingqa/NativeProcessingTests.java",
+      "bytes": 2713,
+      "sha256": "49a1c8c318a7d3577e93376abe0b0043042ec35c17f0ff21d1521b49eb63439b"
+    },
+    {
+      "path": "qa-src/classicminingqa/ProcessingLineTests.java",
+      "bytes": 7439,
+      "sha256": "40316274295d88a8f06eaaf153c64e1b4cc4f7da882606a5d350e44616550035"
+    },
+    {
+      "path": "qa-src/classicminingqa/ProgressionTests.java",
+      "bytes": 10072,
+      "sha256": "e09ebbf4857ac059adb843537d14c663251ff2a7547754e6ad0ae7d5a1edc5f2"
+    },
+    {
+      "path": "qa-src/classicminingqa/ReadinessTests.java",
+      "bytes": 9977,
+      "sha256": "e42fb50a700c546ac34d6851980dd626bc40d27d37ff9f46744feb208126cac1"
+    },
+    {
+      "path": "reports/science6-final/README.md",
+      "bytes": 276,
+      "sha256": "b21edf6f779b90a331bda18fb19ea247f4568b2e1c5ce7d91e7c599c2611b82e"
+    },
+    {
+      "path": "reports/science6-final/branch-discovery.png",
+      "bytes": 60041,
+      "sha256": "60fcc89029c883d1a50fef4f5f4bcda06ee2043c29b0aab59b01535288aff160"
+    },
+    {
+      "path": "reports/science6-final/bulk-supply.png",
+      "bytes": 172802,
+      "sha256": "2c176506edf382e156a7478cdb0b87bbf0de907a8ec59d48296e70d1c81afd6e"
+    },
+    {
+      "path": "reports/science6-final/comparison.html",
+      "bytes": 14438,
+      "sha256": "bd934656092ec56f64474737a6dfde7dde897897ef0ecb73f06c68cd99e22132"
+    },
+    {
+      "path": "reports/science6-final/results.json",
+      "bytes": 299660,
+      "sha256": "dc4f85254e15fb7eb7d7cf55a25cb88984e6a6361ef13db2afb622161aa77b61"
+    },
+    {
+      "path": "reports/science6-v2-catalog/catalog.csv",
+      "bytes": 200654,
+      "sha256": "c6c64090dd53a34b7474b80671b2cb94cb2ca268ef8d5a9e6c71dd08bcbfe64e"
+    },
+    {
+      "path": "reports/science6-v2-catalog/covered-dimensions.txt",
+      "bytes": 348,
+      "sha256": "2c8c203388d5e4a0df28f66fd41d577173e8a465f32e24b0d84440268bf286f0"
+    },
+    {
+      "path": "reports/science6-v2-catalog/dimension-registry.csv",
+      "bytes": 1288,
+      "sha256": "5afe4e58fde0d5a1676f5596845fcd3eac77c0433445ca260fc5c05f1b005bd8"
+    },
+    {
+      "path": "reports/science6-v2-catalog/material-yields.csv",
+      "bytes": 10614,
+      "sha256": "8376d0077340eb1a9695cd151b9d9352d071eb62286c0e9368a79de088ae53d7"
+    },
+    {
+      "path": "reports/science6-v2-catalog/natural-planets.csv",
+      "bytes": 651,
+      "sha256": "58f4b05bf7eecb0d556ed9f905eb62e2e0bc2d5a9e305d9f093b2a9ec465925c"
+    },
+    {
+      "path": "reports/science6-v2-economy-furnace/native-furnace-yields.csv",
+      "bytes": 77165,
+      "sha256": "f91a25839260fccf9cd9b2d1f69da036f1aed77634936dcf605b2558cfa9364f"
+    },
+    {
+      "path": "reports/science6-v2-economy-furnace/progression-parity.csv",
+      "bytes": 42289,
+      "sha256": "2bda885c00bd392898cf4920f753e9c6fba21f4c15480baff6b8d6d6543a090c"
+    },
+    {
+      "path": "reports/science6-v2-ow1/branch-routes.csv",
+      "bytes": 1691,
+      "sha256": "69468362db6648b772572326071aba010ef017c5586b57c4c420a4956d586f0b"
+    },
+    {
+      "path": "reports/science6-v2-ow1/drill-drops.csv",
+      "bytes": 2931,
+      "sha256": "f877d4356bc28073c894e7d582b9988efc1dc340eac3d531d5cc730999c96c55"
+    },
+    {
+      "path": "reports/science6-v2-ow1/drill.properties",
+      "bytes": 209,
+      "sha256": "4230d43626546968970c64022387b2698c3e21c3428bf80aec9e8203f6b439dc"
+    },
+    {
+      "path": "reports/science6-v2-ow2/branch-routes.csv",
+      "bytes": 1697,
+      "sha256": "1c5d0979af787708b4ebf49aefc5688b60249b6cee1a268dfdaab78c7b4b8482"
+    },
+    {
+      "path": "reports/science6-v2-ow2/drill-drops.csv",
+      "bytes": 2858,
+      "sha256": "db8a83fe4d4718bd61f92de23df68a181e4c6ade477987e21cb197921a9b448e"
+    },
+    {
+      "path": "reports/science6-v2-ow2/drill.properties",
+      "bytes": 210,
+      "sha256": "df972434bd29d9ef3ca752d0f5dc7baacb400048ebcdffe190fcf527a92e6d7d"
+    },
+    {
+      "path": "reports/science6-v2-ow3/branch-routes.csv",
+      "bytes": 1704,
+      "sha256": "ab70f47a8cfbf9b988c457e2929332092840ca8e75728534d5f5c9b284ceab51"
+    },
+    {
+      "path": "reports/science6-v2-ow3/drill-drops.csv",
+      "bytes": 2855,
+      "sha256": "0b0ceb3e754740b5e65d646dabe7e3136ee54f534a8d571eda8bb163f61731fe"
+    },
+    {
+      "path": "reports/science6-v2-ow3/drill.properties",
+      "bytes": 210,
+      "sha256": "5acc0ad12337cf2f6683f64f11328721bd8d76e773032be428997d684c438297"
+    },
+    {
+      "path": "reports/science6-v2-ow4/branch-routes.csv",
+      "bytes": 1712,
+      "sha256": "2d09a8712c932dd665f19cac3f80b7aaea1b68ea67d839e8e53f2d83be834a92"
+    },
+    {
+      "path": "reports/science6-v2-ow4/drill-drops.csv",
+      "bytes": 2897,
+      "sha256": "8f94942e8c5858d6de3f34f92defd141e494b36d35399748139132fd5463baf8"
+    },
+    {
+      "path": "reports/science6-v2-ow4/drill.properties",
+      "bytes": 210,
+      "sha256": "8eab3877d6b141286920e0293e2cac88e8a1f2e97331a808bc339f1d7a9c67e4"
+    },
+    {
+      "path": "reports/science6-v2-processing-line3/native-processing-line.csv",
+      "bytes": 4254,
+      "sha256": "bffc257ef2116ac6ec870941bcfab054fa0032803e35d1ea86409ae50e545700"
+    },
+    {
+      "path": "reports/science6-v2-readiness/prospector-payloads.csv",
+      "bytes": 6800,
+      "sha256": "db21bd7a5e62873e33c687f40ba6d54ef38aaae7fc0775d0a4b36436b940710f"
+    },
+    {
+      "path": "reports/science6-v2-readiness/starter-harvest-gates.csv",
+      "bytes": 944,
+      "sha256": "9091c4d88823d318f274a8213904ecce38cd25f0c115370ce1f3a0062535d1c4"
+    },
+    {
+      "path": "reports/science6-v2-readiness/starter-tool.properties",
+      "bytes": 245,
+      "sha256": "948d9713301c453722fe6efb4510f77fe53b832026c77e505538446a55a04e38"
+    },
+    {
+      "path": "run_final_suite.py",
+      "bytes": 1684,
+      "sha256": "b1f34b173be6562583830c71211c3fc90c0497ceba1506c60854aa475378ddbf"
+    },
+    {
+      "path": "run_qa.py",
+      "bytes": 5411,
+      "sha256": "f6880105660926a1db0f0766368083ac11299032923a0d72f52bf51e7a96ae84"
+    },
+    {
+      "path": "src/classicmining/BalanceProfile.java",
+      "bytes": 1144,
+      "sha256": "bca199ca38d733ab3ead2ff7d57877dca76c94d6296e8ef9679d596c8ffa534d"
+    },
+    {
+      "path": "src/classicmining/BulkProfile.java",
+      "bytes": 1268,
+      "sha256": "4c8622c67f4cfcca114d0e300da67f6de1aaf1819a9b58a204a49db9fe95ea20"
+    },
+    {
+      "path": "src/classicmining/ClassicMining.java",
+      "bytes": 1615,
+      "sha256": "4b520e68b38de7b30bf9c646e195650181f4cfaa58241e9cf214c2d80c4e1265"
+    },
+    {
+      "path": "src/classicmining/CorePlugin.java",
+      "bytes": 607,
+      "sha256": "5488eb0edc3dce3f4567b8a2645fb0242d49d99d573360be50dccea1de03a19c"
+    },
+    {
+      "path": "src/classicmining/DepositPlanner.java",
+      "bytes": 5461,
+      "sha256": "4d83e36c866676b4a136b9e152efc1ec982eb5b508469c0f573f618583e2b4fa"
+    },
+    {
+      "path": "src/classicmining/GeologyModel.java",
+      "bytes": 4749,
+      "sha256": "720fe4885f94ce054d1039b34e150b1be122e65538f5e25d500e31af564f933d"
+    },
+    {
+      "path": "src/classicmining/MassAllocation.java",
+      "bytes": 1972,
+      "sha256": "f72a40b7c61752f22af0d34ca58410f0324686d4946d30a259ca279d4063d079"
+    },
+    {
+      "path": "src/classicmining/MiningHooks.java",
+      "bytes": 16897,
+      "sha256": "5c6f9ab3f45f8a03de00f34dfddfe08e1ae6e22cc8119cf603c1712cc92a4fb3"
+    },
+    {
+      "path": "src/classicmining/NativeMassModel.java",
+      "bytes": 1814,
+      "sha256": "2c3cadaf23f3239165148e27fa1f28557bbed9ee289e490662cfc85f95ff5fa7"
+    },
+    {
+      "path": "src/classicmining/OreTransformer.java",
+      "bytes": 2442,
+      "sha256": "0ac8da34766b8593cef8ddc55f0e66fe40238c05807faaf2bb6681f75acf4b90"
+    },
+    {
+      "path": "src/classicmining/Reflection.java",
+      "bytes": 1475,
+      "sha256": "77a36b812f956024c3422072cd136c7f1abfd3b29ee1d4fa8e2c579e048b0f74"
+    },
+    {
+      "path": "test-src/classicmining/BulkVerification.java",
+      "bytes": 1854,
+      "sha256": "a6336f6496c35d374815a254c2695c0cc76341a27cad56f2cd842f11727d52b7"
+    },
+    {
+      "path": "test-src/classicmining/ScienceVerification.java",
+      "bytes": 4816,
+      "sha256": "5489c1bf32ff32ca0a6698100b3bbd46f70c2c0f8c97723c575415fde640c6fa"
+    },
+    {
+      "path": "test-src/classicmining/Verification.java",
+      "bytes": 6701,
+      "sha256": "16f943eace0eba5e43c1d48e873267bc393e43e02dda0661fb3b57ba49b5ec97"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 899,
+      "sha256": "107a0e261c3de419ab8a5a7b833a85840b3ca27db535a30d3235d4ddb9c06638"
+    }
+  ],
+  "total_bytes": 1135898,
+  "credential_pattern_scan_passed": true,
+  "binary_dependencies_included": false,
+  "publication_repository": "https://github.com/finalpantasy/classic-mining-for-gtnh",
+  "release_tag": "v0.1.0-alpha.6"
+}
