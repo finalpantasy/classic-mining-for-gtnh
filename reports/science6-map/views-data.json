@@ -1,0 +1,31 @@
+{
+  "source_map_metadata": "map-data.json",
+  "seed": 92837465,
+  "candidate_sha256": "4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272",
+  "volume": {
+    "min_x": 1120,
+    "max_x": 1215,
+    "min_z": -1312,
+    "max_z": -1217,
+    "min_y": 1,
+    "max_y": 96,
+    "side_section_z": -1264,
+    "edge": 96
+  },
+  "full_ore_counts": [
+    10665,
+    10105
+  ],
+  "section_counts": [
+    178,
+    117
+  ],
+  "selection": "Fixed central 6x6 chunks, Y1-96, chosen for equal cube dimensions and legibility; same crop for every view and variant.",
+  "images": [
+    "top-down.png",
+    "side-section.png",
+    "isometric.png",
+    "isometric-reverse.png"
+  ],
+  "projection": "Top: highest ore per column. Side: one fixed Z plane. Isometric: opaque actual one-block voxels, host rocks hidden, occlusion retained."
+}

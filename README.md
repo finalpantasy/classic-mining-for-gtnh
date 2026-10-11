@@ -9,6 +9,10 @@ An experimental ore-generation companion for **GT New Horizons 2.9.0-RC-2 / Mine
 
 Actual pre-mining server block exports from **the same seed and coordinates**, covering **18 x 18 chunks**. Left: stock GTNH. Right: the exact released Science6 generator. The overhead maps project full GT ores through **Y1-99**; the lower panels show the same fixed middle vertical slice. Colors group native smelting families; small ores are omitted. Dark space is not necessarily air. This is a data visualization of one sampled region, not a rendered screenshot or an all-seed balance guarantee. [Map method, counts and source hashes](reports/science6-map/README.md).
 
+
+![Actual ore cubes: stock GTNH and Classic Mining Science6](reports/science6-map/isometric.png)
+
+The isometric comparison hides host rock to reveal actual ore blocks inside one fixed central **96 x 96 x 96-block cube**. [View top-down, side-section and both isometric angles](reports/science6-map/README.md#multiple-views-of-one-fixed-ore-cube). Every angle uses the same ore volume; nearer ores can obscure those behind them.
 ## Download and install
 
 **Experimental alpha, algorithm 6 / profile `bulk-20261010-v2`. Tested against GTNH 2.9.0-RC-2 and GregTech 5.09.54.205. This is an independent companion mod, not an official GTNH release.**

@@ -26,8 +26,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8039,
-      "sha256": "89eb5c9a6584b50b9637ee7b88a4a925cd9569642478ff8ee84693f552e52d6f"
+      "bytes": 8471,
+      "sha256": "b085e2e97248c7e5b127678252f98615cdf5b577ebc08c9aa8893b3dfd70cfd4"
     },
     {
       "path": "RESEARCH_AND_LIMITS.md",
@@ -130,6 +130,11 @@
       "sha256": "e36b1149932beb8ebf5fa28c367ee0dcbb57ce9778c05d66a95ad0673c578d6f"
     },
     {
+      "path": "make_ore_views.py",
+      "bytes": 8246,
+      "sha256": "f19701360f74d2476f13cf7ff3b47512cc33590fb6e8b79c179cf4ba831be131"
+    },
+    {
       "path": "make_report6.py",
       "bytes": 11884,
       "sha256": "cb4b44833e674bfd22ac4c4ebd08b5c23423bcf78804a192e749c562d3349d70"
@@ -191,8 +196,8 @@
     },
     {
       "path": "reports/science6-map/README.md",
-      "bytes": 1492,
-      "sha256": "3e06b67717f142c82b182549642a9061249976df994861bddb9eae9a53032b01"
+      "bytes": 2504,
+      "sha256": "3915aa24f6db385007af50d2b4b42fb91a784b096c36eb8f2f0bdd54a615b06f"
     },
     {
       "path": "reports/science6-map/before-after-ore-map.png",
@@ -200,9 +205,34 @@
       "sha256": "8ce0d63189e101265753ba54bcfe3db6cff2ba1e9b88ee249167ff32270a89b5"
     },
     {
+      "path": "reports/science6-map/isometric-reverse.png",
+      "bytes": 584412,
+      "sha256": "e569fa47caa6e2a7742eeaa5260925ec6ee40e215499306b488726053a0fe8b8"
+    },
+    {
+      "path": "reports/science6-map/isometric.png",
+      "bytes": 614562,
+      "sha256": "05ecef9575381116ccffd234d9ba67e1ff0697b6035c0d0387aa9725d2775733"
+    },
+    {
       "path": "reports/science6-map/map-data.json",
       "bytes": 2124,
       "sha256": "047c90cfc27d615d5437d49a0098ec80df26ef4420c47275befbe1211fac955f"
+    },
+    {
+      "path": "reports/science6-map/side-section.png",
+      "bytes": 70641,
+      "sha256": "6c0e01cb1f987ea95069ab2472b21946d522bb3289eab6d4b6eaa71a9468f3ce"
+    },
+    {
+      "path": "reports/science6-map/top-down.png",
+      "bytes": 88356,
+      "sha256": "a1c4495b3f004fa9c05facd865d143d3021a9687538fd948409e160f9a932019"
+    },
+    {
+      "path": "reports/science6-map/views-data.json",
+      "bytes": 858,
+      "sha256": "46a2488f3af9ab30af685abe7e8168a7e4231cd34b3ae1f712fabd70fa4497d5"
     },
     {
       "path": "reports/science6-v2-catalog/catalog.csv",

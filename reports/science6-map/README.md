@@ -9,3 +9,25 @@ Top panels project all full GT ore blocks at **Y1–99** onto X/Z columns. The h
 Before: 73,205 full ore blocks. After: 82,676 full ore blocks. Counts are blocks, not ingot yields or mining time.
 
 The worlds share seed, coordinates and settings; native terrain and generation order can differ. This is an actual server block export visualization, not a rendered Minecraft screenshot. It illustrates distribution in one region and does not prove population-wide balance. [Metadata, counts and source hashes](map-data.json). Reproduce with `python make_ore_map.py --data-root <local-Science6-reports>`; raw exports/dependencies must be obtained separately.
+
+## Multiple views of one fixed ore cube
+
+All four views below use the same **central 96 x 96 x 96-block** subvolume: X1120-1215, Z-1312 to -1217, Y1-96. This is a fixed central crop for readability, not a chosen jackpot. The overhead overview above still covers the whole 288 x 288-block region. The isometric images render actual one-block ore cubes with host rock omitted. Nearby ores hide distant ones; the opposite angle helps reveal that occlusion. No ore geometry is invented.
+
+### Top down
+
+![Top down matched stock and Science6](top-down.png)
+
+### Side section, Z-1264
+
+![Side section, Z-1264 matched stock and Science6](side-section.png)
+
+### Isometric cube
+
+![Isometric cube matched stock and Science6](isometric.png)
+
+### Opposite isometric angle
+
+![Opposite isometric angle matched stock and Science6](isometric-reverse.png)
+
+[View metadata and counts](views-data.json). Reproduce with `python make_ore_views.py --data-root <local-Science6-reports>` after making the overview.
