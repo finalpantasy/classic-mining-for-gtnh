@@ -3,6 +3,12 @@
 An experimental ore-generation companion for **GT New Horizons 2.9.0-RC-2 / Minecraft 1.7.10**. Random small discoveries, related minerals, coherent lodes and rare industrial jackpots replace the regular large-vein grid. Native technology, tools, travel and automation remain the pack's responsibility.
 
 
+## Before and after
+
+![Matched stock GTNH and Classic Mining Science6 ore maps](reports/science6-map/before-after-ore-map.png)
+
+Actual pre-mining server block exports from **the same seed and coordinates**, covering **18 x 18 chunks**. Left: stock GTNH. Right: the exact released Science6 generator. The overhead maps project full GT ores through **Y1-99**; the lower panels show the same fixed middle vertical slice. Colors group native smelting families; small ores are omitted. Dark space is not necessarily air. This is a data visualization of one sampled region, not a rendered screenshot or an all-seed balance guarantee. [Map method, counts and source hashes](reports/science6-map/README.md).
+
 ## Download and install
 
 **Experimental alpha, algorithm 6 / profile `bulk-20261010-v2`. Tested against GTNH 2.9.0-RC-2 and GregTech 5.09.54.205. This is an independent companion mod, not an official GTNH release.**

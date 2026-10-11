@@ -1,0 +1,66 @@
+{
+  "seed": 92837465,
+  "dimension": "Overworld",
+  "candidate_sha256": "4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272",
+  "algorithm": 6,
+  "profile": "bulk-20261010-v2",
+  "region": {
+    "min_x": 1024,
+    "min_z": -1408,
+    "width": 288,
+    "height": 288,
+    "min_y": 1,
+    "max_y": 99,
+    "section_z": -1264
+  },
+  "variants": [
+    {
+      "label": "native4-iv-stock2",
+      "full_ore_blocks": 73205,
+      "ore_columns": 34941,
+      "materials": 54,
+      "groups": {
+        "Iron-bearing": 26479,
+        "Other minerals": 31592,
+        "Copper-bearing": 2651,
+        "Redstone": 1817,
+        "Tin-bearing": 2436,
+        "Coal / lignite": 8230
+      },
+      "midpoint_section_blocks": 351
+    },
+    {
+      "label": "science6-v2-ow1",
+      "full_ore_blocks": 82676,
+      "ore_columns": 41716,
+      "materials": 57,
+      "groups": {
+        "Coal / lignite": 5342,
+        "Copper-bearing": 7227,
+        "Other minerals": 35400,
+        "Iron-bearing": 29483,
+        "Tin-bearing": 2618,
+        "Redstone": 2606
+      },
+      "midpoint_section_blocks": 222
+    }
+  ],
+  "source_exports": [
+    {
+      "label": "native4-iv-stock2",
+      "ore_export_sha256": "d8c2b68456e26164d5c0045fa47f6123c30e9958e94e5443e706ef115d375419"
+    },
+    {
+      "label": "science6-v2-ow1",
+      "ore_export_sha256": "68632c6d9ff44ac4e47896c5a4f7a655f1fca262ea5c187a7b2cbd3e1c444a82"
+    }
+  ],
+  "selection": "First paired calibration seed, complete drill footprint, pre-mining exports; fixed midpoint section. Not selected for visual prominence.",
+  "projection": "Highest selected full ore per X/Z column; small ores omitted. Family colors use native direct-smelting identity, not guaranteed output rate.",
+  "limits": [
+    "Paired seed, coordinates and world settings, not guaranteed identical host terrain.",
+    "Three-chunk guides are visual references, not guaranteed vein centers.",
+    "A single region does not establish all-seed or endgame balance.",
+    "This is data visualization, not rendered gameplay."
+  ]
+}

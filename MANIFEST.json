@@ -26,8 +26,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7338,
-      "sha256": "4e1b86482df1edd4a88e4c705aa2c4646aceb40f093174415131745b115d10bd"
+      "bytes": 8039,
+      "sha256": "89eb5c9a6584b50b9637ee7b88a4a925cd9569642478ff8ee84693f552e52d6f"
     },
     {
       "path": "RESEARCH_AND_LIMITS.md",
@@ -125,6 +125,11 @@
       "sha256": "2cf03d3514882ae71fe349216084da42d6e053a9d1e4c5229a081139900729d6"
     },
     {
+      "path": "make_ore_map.py",
+      "bytes": 8570,
+      "sha256": "e36b1149932beb8ebf5fa28c367ee0dcbb57ce9778c05d66a95ad0673c578d6f"
+    },
+    {
       "path": "make_report6.py",
       "bytes": 11884,
       "sha256": "cb4b44833e674bfd22ac4c4ebd08b5c23423bcf78804a192e749c562d3349d70"
@@ -183,6 +188,21 @@
       "path": "reports/science6-final/results.json",
       "bytes": 299660,
       "sha256": "dc4f85254e15fb7eb7d7cf55a25cb88984e6a6361ef13db2afb622161aa77b61"
+    },
+    {
+      "path": "reports/science6-map/README.md",
+      "bytes": 1492,
+      "sha256": "3e06b67717f142c82b182549642a9061249976df994861bddb9eae9a53032b01"
+    },
+    {
+      "path": "reports/science6-map/before-after-ore-map.png",
+      "bytes": 196813,
+      "sha256": "8ce0d63189e101265753ba54bcfe3db6cff2ba1e9b88ee249167ff32270a89b5"
+    },
+    {
+      "path": "reports/science6-map/map-data.json",
+      "bytes": 2124,
+      "sha256": "047c90cfc27d615d5437d49a0098ec80df26ef4420c47275befbe1211fac955f"
     },
     {
       "path": "reports/science6-v2-catalog/catalog.csv",
@@ -385,7 +405,7 @@
       "sha256": "107a0e261c3de419ab8a5a7b833a85840b3ca27db535a30d3235d4ddb9c06638"
     }
   ],
-  "total_bytes": 1135904,
+  "total_bytes": 1345604,
   "credential_pattern_scan_passed": true,
   "binary_dependencies_included": false,
   "publication_repository": "https://github.com/finalpantasy/classic-mining-for-gtnh",
