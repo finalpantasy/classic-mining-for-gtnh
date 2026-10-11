@@ -21,13 +21,13 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "bytes": 865,
-      "sha256": "e6fd163e7d363dcafaf1a20324685e389b7e149def083b60860d9e2741aa1178"
+      "bytes": 868,
+      "sha256": "c4a2f8b068e8b05688a29e46f1803c6d9cd797f5a23fb70945f101019ab22558"
     },
     {
       "path": "README.md",
-      "bytes": 7335,
-      "sha256": "d06fd0f4b80c902a0a3752fb742d042398ec4c36979df8d437fe0af436fcca72"
+      "bytes": 7338,
+      "sha256": "4e1b86482df1edd4a88e4c705aa2c4646aceb40f093174415131745b115d10bd"
     },
     {
       "path": "RESEARCH_AND_LIMITS.md",
@@ -385,7 +385,7 @@
       "sha256": "107a0e261c3de419ab8a5a7b833a85840b3ca27db535a30d3235d4ddb9c06638"
     }
   ],
-  "total_bytes": 1135898,
+  "total_bytes": 1135904,
   "credential_pattern_scan_passed": true,
   "binary_dependencies_included": false,
   "publication_repository": "https://github.com/finalpantasy/classic-mining-for-gtnh",
