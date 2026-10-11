@@ -25,7 +25,9 @@ Download the [tested main jar from the alpha release](https://github.com/finalpa
 
 Do not install the QA mod. Do not replace a jar in an existing algorithm-3/4/5 world or another algorithm-6 profile. No migration or retrogen is provided. Keep the matching jar with the world. Back up worlds before pack/mod updates; other pack versions require retesting.
 
-Main jar SHA256: `4b4e285f2e4b8a90edbb57aa33328fd64911a36a4ed451beb246ad67aefa6272`.
+Main jar SHA256: `86e33e9080c7b4c2ca4a1b49931ba42661123a747a5395a9acf558fdd3323046`.
+
+The release download uses the project-only `classicmining` package namespace. Its class files are identical to the originally measured binary after normalizing that namespace rename. The original measurement hashes remain in the historical reports; see [build verification](BUILD_VERIFICATION.md).
 
 ## Measured results and limits
 
