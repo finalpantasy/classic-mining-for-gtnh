@@ -1,5 +1,7 @@
 # Classic Mining for GTNH
 
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-buy%20me%20a%20coffee-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/finalpantasy)
+
 An experimental ore-generation companion for **GT New Horizons 2.9.0-RC-2 / Minecraft 1.7.10**. Random small discoveries, related minerals, coherent lodes and rare industrial jackpots replace the regular large-vein grid. Native technology, tools, travel and automation remain the pack's responsibility.
 
 
@@ -82,3 +84,7 @@ Native drill/branch: `--native --drill-tier 4 --branch`. Coverage: `--catalog --
 ## Licensing
 
 No open-source license has been selected. Public source availability does not designate this project as open source. See [RIGHTS.md](RIGHTS.md). Third-party dependencies are obtained separately and remain under their own licenses.
+
+## Support
+
+Free hobby project. If it helps you, you can [buy me a coffee on Ko-fi](https://ko-fi.com/finalpantasy). Thank you!
